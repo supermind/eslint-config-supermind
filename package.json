@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-supermind",
+  "version": "0.1.0",
+  "description": "ESLint configuration and rules for Supermind projects",
+  "homepage": "https://github.com/supermind-hq/eslint-config-supermind#readme",
+  "author": "Matthew Wagerfield <matthew@supermind.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supermind-hq/eslint-config-supermind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/supermind-hq/eslint-config-supermind/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^3.8.1"
+  }
+}
