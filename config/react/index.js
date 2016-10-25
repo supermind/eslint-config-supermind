@@ -4,5 +4,9 @@ module.exports = {
       jsx: true
     }
   },
-  plugins: [ 'react' ]
+  plugins: [ 'react' ],
+  extends: [
+    './jsx',
+    './react'
+  ].map(require.resolve)
 }
