@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/supermind-hq/eslint-config-supermind/issues"
   },
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "^7.0.0",
     "eslint": "^3.8.1"
   }
