@@ -1,4 +1,4 @@
-// https://www.npmjs.com/package/eslint-plugin-react#jsx-specific-rules
+// https://github.com/yannickcr/eslint-plugin-react#jsx-specific-rules
 module.exports = {
   rules: {
 

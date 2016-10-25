@@ -1,4 +1,4 @@
-// https://www.npmjs.com/package/eslint-plugin-react#list-of-supported-rules
+// https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
 module.exports = {
   rules: {
 
