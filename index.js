@@ -2,7 +2,7 @@ module.exports = {
 
   // Parser
   // http://eslint.org/docs/user-guide/configuring#specifying-parser
-  parser: 'esprima',
+  parser: 'babel-eslint',
 
   // Parser Options
   // http://eslint.org/docs/user-guide/configuring#specifying-parser-options
