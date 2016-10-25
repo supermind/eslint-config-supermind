@@ -1,10 +1,8 @@
 module.exports = {
 
-  // Parser
   // http://eslint.org/docs/user-guide/configuring#specifying-parser
   parser: 'babel-eslint',
 
-  // Parser Options
   // http://eslint.org/docs/user-guide/configuring#specifying-parser-options
   parserOptions: {
     ecmaVersion: 2017,
@@ -16,7 +14,6 @@ module.exports = {
     }
   },
 
-  // Environments
   // http://eslint.org/docs/user-guide/configuring#specifying-environments
   env: {
     browser: true,
@@ -24,15 +21,13 @@ module.exports = {
     es6: true
   },
 
-  // Rules
   // http://eslint.org/docs/user-guide/configuring#configuring-rules
   rules: {
-    'strict': 'error'
+    'strict': [ 'error', 'never' ]
   },
 
-  // Extend
   // http://eslint.org/docs/user-guide/configuring#extending-configuration-files
   extends: [
-    './config/base'
+    './config/eslint'
   ].map(require.resolve)
 }
