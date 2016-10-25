@@ -23,6 +23,7 @@ module.exports = {
 
   // http://eslint.org/docs/user-guide/configuring#extending-configuration-files
   extends: [
-    './config/eslint'
+    './config/eslint',
+    './config/react'
   ].map(require.resolve)
 }
