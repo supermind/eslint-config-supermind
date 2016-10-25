@@ -1,13 +1,17 @@
 {
   "name": "eslint-config-supermind",
   "version": "0.1.0",
-  "description": "ESLint configuration and rules for Supermind projects",
+  "description": "Supermind's JavaScript ESLint configuration and rules",
   "homepage": "https://github.com/supermind-hq/eslint-config-supermind#readme",
   "author": "Matthew Wagerfield <matthew@supermind.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "main": "index.js",
+  "private": true,
   "keywords": [
-    "eslint"
+    "eslint",
+    "eslintconfig",
+    "config",
+    "supermind"
   ],
   "repository": {
     "type": "git",
