@@ -4,8 +4,12 @@ module.exports = {
       jsx: true
     }
   },
-  plugins: [ 'react' ],
+  plugins: [
+    'react',
+    'jsx-a11y'
+  ],
   extends: [
+    './a11y',
     './jsx',
     './react'
   ].map(require.resolve)
