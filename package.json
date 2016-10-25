@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "babel-eslint": "^7.0.0",
-    "eslint": "^3.8.1"
+    "eslint": "^3.8.1",
+    "eslint-plugin-react": "^6.4.1"
   }
 }
