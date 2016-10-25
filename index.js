@@ -21,11 +21,6 @@ module.exports = {
     es6: true
   },
 
-  // http://eslint.org/docs/user-guide/configuring#configuring-rules
-  rules: {
-    'strict': [ 'error', 'never' ]
-  },
-
   // http://eslint.org/docs/user-guide/configuring#extending-configuration-files
   extends: [
     './config/eslint'
