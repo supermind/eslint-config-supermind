@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'import'
+  ],
   extends: [
     './best-practices',
     './errors',
