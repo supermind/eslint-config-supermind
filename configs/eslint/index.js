@@ -1,10 +1,10 @@
 module.exports = {
   extends: [
+    './best-practices',
     './errors',
     './es6',
     './imports',
     './node',
-    './standards',
     './strict',
     './style',
     './variables'
