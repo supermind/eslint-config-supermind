@@ -8,9 +8,9 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module',
     ecmaFeatures: {
+      experimentalObjectRestSpread: true,
       globalReturn: false,
-      impliedStrict: true,
-      experimentalObjectRestSpread: true
+      impliedStrict: true
     }
   },
 
