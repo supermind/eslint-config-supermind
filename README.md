@@ -35,4 +35,4 @@ To ensure that all available rules are specified throughout the config files run
 yarn run find-unused-rules
 ```
 
-**NOTE:** Some rules are [deprecated](http://eslint.org/docs/rules/#deprecated), so might appear in this list, but should not be added to the config files.
+**NOTE:** Some rules are [deprecated](deprecated.js) and should not be added to the config files.
