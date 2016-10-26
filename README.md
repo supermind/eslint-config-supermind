@@ -20,3 +20,19 @@ module.exports = {
   extends: 'supermind' // Extend Supermind's ESLint configuration settings and rules
 }
 ```
+
+## Development
+
+To lint the files within the repository run:
+
+```bash
+yarn run lint
+```
+
+To ensure that all available rules are specified throughout the config files run:
+
+```bash
+yarn run find-unused-rules
+```
+
+**NOTE:** Some rules are [deprecated](http://eslint.org/docs/rules/#deprecated), so might appear in this list, but should not be added to the config files.
