@@ -1,6 +1,18 @@
 # Supermind ESLint Config
 
-Create an `.eslintrc.js` file at the root of your project
+Install [yarn](https://yarnpkg.com/) globally:
+
+```bash
+npm install yarn --global
+```
+
+Add `eslint-config-supermind` as a `devDependency` to your project:
+
+```bash
+yarn add eslint-config-supermind --dev
+```
+
+Create an `.eslintrc.js` file at the root of your project:
 
 ```js
 module.exports = {
