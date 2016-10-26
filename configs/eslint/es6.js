@@ -28,10 +28,7 @@ module.exports = {
 
     // Enforce consistent spacing around * operators in generator functions
     // http://eslint.org/docs/rules/generator-star-spacing
-    'generator-star-spacing': [ 'error', {
-      before: true,
-      after: false
-    }],
+    'generator-star-spacing': [ 'error', 'before' ],
 
     // Disallow reassigning class members
     // http://eslint.org/docs/rules/no-class-assign
@@ -106,7 +103,7 @@ module.exports = {
 
     // Require Reflect methods where applicable
     // http://eslint.org/docs/rules/prefer-reflect
-    'prefer-reflect': 'off',
+    'prefer-reflect': 'error',
 
     // Require rest parameters instead of arguments
     // http://eslint.org/docs/rules/prefer-rest-params
@@ -130,7 +127,11 @@ module.exports = {
 
     // Enforce sorted import declarations within modules
     // http://eslint.org/docs/rules/sort-imports
-    'sort-imports': 'off',
+    'sort-imports': [ 'error', {
+      ignoreCase: false,
+      ignoreMemberSort: false,
+      memberSyntaxSortOrder: [ 'none', 'all', 'multiple', 'single' ]
+    }],
 
     // Require symbol descriptions
     // http://eslint.org/docs/rules/symbol-description
@@ -142,9 +143,6 @@ module.exports = {
 
     // Require or disallow spacing around the * in yield* expressions
     // http://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': [ 'error', {
-      before: false,
-      after: true
-    }]
+    'yield-star-spacing': [ 'error', 'before' ]
   }
 }
