@@ -4,6 +4,6 @@ module.exports = {
 
     // Require or disallow initialization in variable declarations
     // http://eslint.org/docs/rules/init-declarations
-    'init-declarations': 'error'
+    // 'init-declarations': 'error'
   }
 }

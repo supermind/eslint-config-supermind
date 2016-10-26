@@ -4,6 +4,6 @@ module.exports = {
 
     // Disallow assignment operators in conditional expressions
     // http://eslint.org/docs/rules/no-cond-assign
-    'no-cond-assign': 'error'
+    // 'no-cond-assign': 'error'
   }
 }

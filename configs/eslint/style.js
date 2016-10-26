@@ -4,6 +4,6 @@ module.exports = {
 
     // Enforce consistent spacing inside array brackets
     // http://eslint.org/docs/rules/array-bracket-spacing
-    'array-bracket-spacing': 'error'
+    // 'array-bracket-spacing': 'error'
   }
 }

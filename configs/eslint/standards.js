@@ -4,6 +4,6 @@ module.exports = {
 
     // Enforce getter and setter pairs in objects
     // http://eslint.org/docs/rules/accessor-pairs
-    'accessor-pairs': 'error'
+    // 'accessor-pairs': 'error'
   }
 }

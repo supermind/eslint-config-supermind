@@ -4,6 +4,6 @@ module.exports = {
 
     // Require return statements after callbacks
     // http://eslint.org/docs/rules/callback-return
-    'callback-return': 'error'
+    // 'callback-return': 'error'
   }
 }
