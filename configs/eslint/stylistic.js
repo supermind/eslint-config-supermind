@@ -372,7 +372,10 @@ module.exports = {
     // Enforce consistent spacing after the // or /* in a comment
     // http://eslint.org/docs/rules/spaced-comment
     'spaced-comment': [ 'error', 'always', {
-      exceptions: [ '-', '=' ]
+      exceptions: [ '-', '=' ],
+      block: {
+        balanced: true
+      }
     }],
 
     // Require or disallow Unicode byte order mark (BOM)
