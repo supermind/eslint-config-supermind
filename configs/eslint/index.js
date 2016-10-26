@@ -6,7 +6,7 @@ module.exports = {
     './imports',
     './node',
     './strict',
-    './style',
+    './stylistic',
     './variables'
   ].map(require.resolve)
 }
