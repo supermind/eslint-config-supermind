@@ -21,7 +21,8 @@
     "url": "https://github.com/supermind-hq/eslint-config-supermind/issues"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "find-unused-rules": "eslint-find-rules --unused .eslintrc.js"
   },
   "dependencies": {
     "babel-eslint": "^7.0.0",
