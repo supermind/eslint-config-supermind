@@ -30,7 +30,7 @@ module.exports = {
     // Disallow variable declarations from shadowing variables declared in the outer scope
     // http://eslint.org/docs/rules/no-shadow
     'no-shadow': [ 'error', {
-      builtinGlobals: true,
+      builtinGlobals: false,
       hoist: 'functions',
       allow: []
     }],
