@@ -7,7 +7,7 @@
 - [x] `node`
 - [x] `strict`
 - [x] `stylistic`
-- [ ] `variables`
+- [x] `variables`
 
 ## React
 
