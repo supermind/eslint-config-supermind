@@ -4,7 +4,7 @@
 - [x] `errors`
 - [x] `es6`
 - [ ] `imports`
-- [ ] `node`
+- [x] `node`
 - [x] `strict`
 - [x] `stylistic`
 - [ ] `variables`

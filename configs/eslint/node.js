@@ -9,31 +9,31 @@ module.exports = {
 
     // Require require() calls to be placed at top-level module scope
     // http://eslint.org/docs/rules/global-require
-    'global-require': 'off',
+    'global-require': 'error',
 
     // Require error handling in callbacks
     // http://eslint.org/docs/rules/handle-callback-err
-    'handle-callback-err': 'off',
+    'handle-callback-err': [ 'error', '^(err|error|.+Error)$' ],
 
     // Disallow require calls to be mixed with regular variable declarations
     // http://eslint.org/docs/rules/no-mixed-requires
-    'no-mixed-requires': 'off',
+    'no-mixed-requires': 'error',
 
     // Disallow new operators with calls to require
     // http://eslint.org/docs/rules/no-new-require
-    'no-new-require': 'off',
+    'no-new-require': 'error',
 
     // Disallow string concatenation with __dirname and __filename
     // http://eslint.org/docs/rules/no-path-concat
-    'no-path-concat': 'off',
+    'no-path-concat': 'error',
 
     // Disallow the use of process.env
     // http://eslint.org/docs/rules/no-process-env
-    'no-process-env': 'off',
+    'no-process-env': 'error',
 
     // Disallow the use of process.exit()
     // http://eslint.org/docs/rules/no-process-exit
-    'no-process-exit': 'off',
+    'no-process-exit': 'error',
 
     // Disallow specified modules when loaded by require
     // http://eslint.org/docs/rules/no-restricted-modules
@@ -41,6 +41,6 @@ module.exports = {
 
     // Disallow synchronous methods
     // http://eslint.org/docs/rules/no-sync
-    'no-sync': 'off'
+    'no-sync': 'error'
   }
 }
