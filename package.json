@@ -1,22 +1,23 @@
 {
   "name": "eslint-config-supermind",
   "version": "0.1.0",
-  "description": "Supermind's JavaScript ESLint configuration and rules",
+  "description": "Supermind's ESLint configuration",
   "homepage": "https://github.com/supermind-hq/eslint-config-supermind#readme",
   "author": "Matthew Wagerfield <matthew@supermind.com>",
   "license": "UNLICENSED",
   "private": true,
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "find-all-rules": "eslint-find-rules --all-available .eslintrc.js",
+    "find-unused-rules": "eslint-find-rules --unused .eslintrc.js"
+  },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
     "supermind"
   ],
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "find-unused-rules": "eslint-find-rules --unused .eslintrc.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/supermind-hq/eslint-config-supermind.git"
@@ -33,5 +34,8 @@
   },
   "devDependencies": {
     "eslint-find-rules": "^1.14.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.8.1"
   }
 }
