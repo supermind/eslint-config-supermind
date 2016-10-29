@@ -325,7 +325,7 @@ module.exports = {
 
     // Require JSDoc comments
     // http://eslint.org/docs/rules/require-jsdoc
-    'require-jsdoc': [ 'error', {
+    'require-jsdoc': [ 'off', {
       require: {
         FunctionDeclaration: true,
         MethodDefinition: true,
