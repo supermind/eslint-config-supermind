@@ -26,7 +26,7 @@ module.exports = {
 
     // Require or disallow trailing commas
     // http://eslint.org/docs/rules/comma-dangle
-    'comma-dangle': [ 'error', 'only-multiline' ],
+    'comma-dangle': [ 'error', 'never' ],
 
     // Enforce consistent spacing before and after commas
     // http://eslint.org/docs/rules/comma-spacing
@@ -120,7 +120,7 @@ module.exports = {
     // http://eslint.org/docs/rules/lines-around-directive
     'lines-around-directive': [ 'error', {
       before: 'never',
-      after: 'always',
+      after: 'always'
     }],
 
     // Enforce a maximum depth that blocks can be nested
