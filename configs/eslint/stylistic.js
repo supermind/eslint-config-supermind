@@ -325,7 +325,13 @@ module.exports = {
 
     // Require JSDoc comments
     // http://eslint.org/docs/rules/require-jsdoc
-    'require-jsdoc': 'off',
+    'require-jsdoc': [ 'error', {
+      require: {
+        FunctionDeclaration: true,
+        MethodDefinition: true,
+        ClassDeclaration: true
+      }
+    }],
 
     // Enforce consistent spacing before and after semicolons
     // http://eslint.org/docs/rules/semi-spacing
