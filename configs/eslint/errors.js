@@ -118,7 +118,7 @@ module.exports = {
     // Enforce valid JSDoc comments
     // http://eslint.org/docs/rules/valid-jsdoc
     'valid-jsdoc': [ 'error', {
-      matchDescription: '.+\.',
+      matchDescription: '.+',
       requireReturnType: true,
       requireReturnDescription: true,
       requireParamDescription: true,
