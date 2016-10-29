@@ -9,6 +9,10 @@
 - [x] `stylistic`
 - [x] `variables`
 
+## Flowtype
+
+- [ ] `flowtype`
+
 ## React
 
 - [ ] `a11y`

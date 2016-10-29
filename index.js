@@ -24,6 +24,7 @@ module.exports = {
   // http://eslint.org/docs/user-guide/configuring#extending-configuration-files
   extends: [
     './configs/eslint',
+    './configs/flowtype',
     './configs/react'
   ].map(require.resolve)
 }
