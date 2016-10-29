@@ -1,6 +1,6 @@
 ## ESLint
 
-- [ ] `best-practices`
+- [x] `best-practices`
 - [x] `errors`
 - [x] `es6`
 - [ ] `imports`
