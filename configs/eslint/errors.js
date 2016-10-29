@@ -117,7 +117,25 @@ module.exports = {
 
     // Enforce valid JSDoc comments
     // http://eslint.org/docs/rules/valid-jsdoc
-    'valid-jsdoc': 'error',
+    'valid-jsdoc': [ 'error', {
+      matchDescription: '.+\.',
+      requireReturnType: true,
+      requireReturnDescription: true,
+      requireParamDescription: true,
+      prefer: {
+        arg: 'param',
+        argument: 'param',
+        return: 'returns'
+      },
+      preferType: {
+        Array: 'array',
+        Boolean: 'boolean',
+        Function: 'function',
+        Number: 'number',
+        Object: 'object',
+        String: 'string'
+      }
+    }],
 
     // Enforce comparing typeof expressions against valid strings
     // http://eslint.org/docs/rules/valid-typeof
