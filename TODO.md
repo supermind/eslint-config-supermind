@@ -3,18 +3,28 @@
 - [x] `best-practices`
 - [x] `errors`
 - [x] `es6`
-- [ ] `imports`
 - [x] `node`
 - [x] `strict`
 - [x] `stylistic`
 - [x] `variables`
 
-## Flowtype
+## Flowtype Plugin
 
 - [ ] `flowtype`
 
-## React
+## Import Plugin
+
+- [x] `helpful-warnings`
+- [ ] `module-systems`
+- [x] `static-analysis`
+- [ ] `style-guide`
+
+## React Plugin
 
 - [ ] `a11y`
 - [ ] `jsx`
 - [ ] `react`
+
+## Supermind Rules
+
+- [ ] `async methodNameAsync`
