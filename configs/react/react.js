@@ -111,6 +111,7 @@ module.exports = {
     /**
      * Prevent usage of unknown DOM property
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
+     * @fixable
      */
     'react/no-unknown-property': 'off',
 
@@ -159,6 +160,7 @@ module.exports = {
     /**
      * Prevent extra closing tags for components without children
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
+     * @fixable
      */
     'react/self-closing-comp': 'off',
 

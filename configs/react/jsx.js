@@ -9,24 +9,28 @@ module.exports = {
     /**
      * Enforce boolean attributes notation in JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
+     * @fixable
      */
     'react/jsx-boolean-value': 'off',
 
     /**
      * Validate closing bracket location in JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
+     * @fixable
      */
     'react/jsx-closing-bracket-location': 'off',
 
     /**
      * Enforce or disallow spaces inside of curly braces in JSX attributes
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
+     * @fixable
      */
     'react/jsx-curly-spacing': 'off',
 
     /**
      * Enforce or disallow spaces around equal signs in JSX attributes
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
+     * @fixable
      */
     'react/jsx-equals-spacing': 'off',
 
@@ -57,6 +61,7 @@ module.exports = {
     /**
      * Validate props indentation in JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
+     * @fixable
      */
     'react/jsx-indent-props': 'off',
 
@@ -123,6 +128,7 @@ module.exports = {
     /**
      * Validate spacing before closing bracket in JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
+     * @fixable
      */
     'react/jsx-space-before-closing': 'off',
 
@@ -141,6 +147,7 @@ module.exports = {
     /**
      * Prevent missing parentheses around multilines JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
+     * @fixable
      */
     'react/jsx-wrap-multilines': 'off'
   }
