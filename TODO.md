@@ -17,7 +17,7 @@
 - [x] `helpful-warnings`
 - [x] `module-systems`
 - [x] `static-analysis`
-- [ ] `style-guide`
+- [x] `style-guide`
 
 ## React Plugin
 
