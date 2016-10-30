@@ -15,7 +15,7 @@
 ## Import Plugin
 
 - [x] `helpful-warnings`
-- [ ] `module-systems`
+- [x] `module-systems`
 - [x] `static-analysis`
 - [ ] `style-guide`
 
