@@ -25,6 +25,7 @@ module.exports = {
   extends: [
     './configs/eslint',
     './configs/flowtype',
+    './configs/import',
     './configs/react'
   ].map(require.resolve)
 }
