@@ -10,7 +10,7 @@
 
 ## Flowtype Plugin
 
-- [ ] `flowtype`
+- [x] `flowtype`
 
 ## Import Plugin
 
