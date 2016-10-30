@@ -9,6 +9,7 @@ module.exports = {
     /**
      * Enforces a particular style for boolean type annotations
      * @see https://github.com/gajus/eslint-plugin-flowtype#boolean-style
+     * @fixable
      */
     'flowtype/boolean-style': 'off',
 
@@ -21,12 +22,14 @@ module.exports = {
     /**
      * Enforces consistent use of trailing commas in Object and Tuple annotations
      * @see https://github.com/gajus/eslint-plugin-flowtype#delimiter-dangle
+     * @fixable
      */
     'flowtype/delimiter-dangle': 'off',
 
     /**
      * Enforces consistent spacing within generic type annotation parameters
      * @see https://github.com/gajus/eslint-plugin-flowtype#generic-spacing
+     * @fixable
      */
     'flowtype/generic-spacing': 'off',
 
@@ -45,6 +48,7 @@ module.exports = {
     /**
      * Enforces consistent separators between properties in Flow object types
      * @see https://github.com/gajus/eslint-plugin-flowtype#object-type-delimiter
+     * @fixable
      */
     'flowtype/object-type-delimiter': 'off',
 
@@ -69,6 +73,7 @@ module.exports = {
     /**
      * Enforces consistent use of semicolons after type aliases
      * @see https://github.com/gajus/eslint-plugin-flowtype#semi
+     * @fixable
      */
     'flowtype/semi': 'off',
 
@@ -81,18 +86,21 @@ module.exports = {
     /**
      * Enforces consistent spacing after the type annotation colon
      * @see https://github.com/gajus/eslint-plugin-flowtype#space-after-type-colon
+     * @fixable
      */
     'flowtype/space-after-type-colon': 'off',
 
     /**
      * Enforces consistent spacing before the opening < of generic type annotation parameters
      * @see https://github.com/gajus/eslint-plugin-flowtype#space-before-generic-bracket
+     * @fixable
      */
     'flowtype/space-before-generic-bracket': 'off',
 
     /**
      * Enforces consistent spacing before the type annotation colon
      * @see https://github.com/gajus/eslint-plugin-flowtype#space-before-type-colon
+     * @fixable
      */
     'flowtype/space-before-type-colon': 'off',
 
@@ -105,6 +113,7 @@ module.exports = {
     /**
      * Enforces consistent spacing around union and intersection type separators (| and &)
      * @see https://github.com/gajus/eslint-plugin-flowtype#union-intersection-spacing
+     * @fixable
      */
     'flowtype/union-intersection-spacing': 'off',
 
