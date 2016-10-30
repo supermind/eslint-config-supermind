@@ -54,6 +54,7 @@ module.exports = {
     /**
      * Enforce consistent brace style for all control statements
      * @see http://eslint.org/docs/rules/curly
+     * @fixable
      */
     'curly': [ 'error', 'all' ],
 
@@ -66,12 +67,14 @@ module.exports = {
     /**
      * Enforce consistent newlines before and after dots
      * @see http://eslint.org/docs/rules/dot-location
+     * @fixable
      */
     'dot-location': [ 'error', 'property' ],
 
     /**
      * Enforce dot notation whenever possible
      * @see http://eslint.org/docs/rules/dot-notation
+     * @fixable
      */
     'dot-notation': [ 'error', {
       allowKeywords: true
@@ -152,6 +155,7 @@ module.exports = {
     /**
      * Disallow unnecessary calls to .bind()
      * @see http://eslint.org/docs/rules/no-extra-bind
+     * @fixable
      */
     'no-extra-bind': 'error',
 
@@ -170,6 +174,7 @@ module.exports = {
     /**
      * Disallow leading or trailing decimal points in numeric literals
      * @see http://eslint.org/docs/rules/no-floating-decimal
+     * @fixable
      */
     'no-floating-decimal': 'error',
 
@@ -182,6 +187,7 @@ module.exports = {
     /**
      * Disallow shorthand type conversions
      * @see http://eslint.org/docs/rules/no-implicit-coercion
+     * @fixable
      */
     'no-implicit-coercion': [ 'error', {
       allow: []
@@ -243,6 +249,7 @@ module.exports = {
     /**
      * Disallow multiple spaces
      * @see http://eslint.org/docs/rules/no-multi-spaces
+     * @fixable
      */
     'no-multi-spaces': 'error',
 
@@ -398,6 +405,13 @@ module.exports = {
     'no-useless-escape': 'error',
 
     /**
+     * Disallow redundant return statements
+     * @see http://eslint.org/docs/rules/no-useless-return
+     * @fixable
+     */
+    'no-useless-return': 'error',
+
+    /**
      * Disallow void operators
      * @see http://eslint.org/docs/rules/no-void
      */
@@ -432,6 +446,7 @@ module.exports = {
     /**
      * Require parentheses around immediate function invocations
      * @see http://eslint.org/docs/rules/wrap-iife
+     * @fixable
      */
     'wrap-iife': [ 'error', 'inside', {
       functionPrototypeMethods: true
@@ -440,6 +455,7 @@ module.exports = {
     /**
      * Require or disallow “Yoda” conditions
      * @see http://eslint.org/docs/rules/yoda
+     * @fixable
      */
     'yoda': [ 'error', 'never' ]
   }

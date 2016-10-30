@@ -9,6 +9,7 @@ module.exports = {
     /**
      * Enforce consistent spacing inside array brackets
      * @see http://eslint.org/docs/rules/array-bracket-spacing
+     * @fixable
      */
     'array-bracket-spacing': [ 'error', 'always', {
       objectsInArrays: false,
@@ -18,12 +19,14 @@ module.exports = {
     /**
      * Enforce consistent spacing inside single-line blocks
      * @see http://eslint.org/docs/rules/block-spacing
+     * @fixable
      */
     'block-spacing': [ 'error', 'always' ],
 
     /**
      * Enforce consistent brace style for blocks
      * @see http://eslint.org/docs/rules/brace-style
+     * @fixable
      */
     'brace-style': [ 'error', '1tbs', {
       allowSingleLine: true
@@ -38,12 +41,14 @@ module.exports = {
     /**
      * Require or disallow trailing commas
      * @see http://eslint.org/docs/rules/comma-dangle
+     * @fixable
      */
     'comma-dangle': [ 'error', 'never' ],
 
     /**
      * Enforce consistent spacing before and after commas
      * @see http://eslint.org/docs/rules/comma-spacing
+     * @fixable
      */
     'comma-spacing': [ 'error', {
       before: false,
@@ -53,12 +58,14 @@ module.exports = {
     /**
      * Enforce consistent comma style
      * @see http://eslint.org/docs/rules/comma-style
+     * @fixable
      */
     'comma-style': [ 'error', 'last' ],
 
     /**
      * Enforce consistent spacing inside computed property brackets
      * @see http://eslint.org/docs/rules/computed-property-spacing
+     * @fixable
      */
     'computed-property-spacing': [ 'error', 'never' ],
 
@@ -71,12 +78,14 @@ module.exports = {
     /**
      * Require or disallow newline at the end of files
      * @see http://eslint.org/docs/rules/eol-last
+     * @fixable
      */
     'eol-last': [ 'error', 'always' ],
 
     /**
      * Require or disallow spacing between function identifiers and their invocations
      * @see http://eslint.org/docs/rules/func-call-spacing
+     * @fixable
      */
     'func-call-spacing': [ 'error', 'never' ],
 
@@ -121,6 +130,7 @@ module.exports = {
     /**
      * Enforce consistent indentation
      * @see http://eslint.org/docs/rules/indent
+     * @fixable
      */
     'indent': [ 'error', 2, {
       SwitchCase: 1
@@ -129,18 +139,21 @@ module.exports = {
     /**
      * Enforce the consistent use of either double or single quotes in JSX attributes
      * @see http://eslint.org/docs/rules/jsx-quotes
+     * @fixable
      */
     'jsx-quotes': [ 'error', 'prefer-double' ],
 
     /**
      * Enforce consistent spacing between keys and values in object literal properties
      * @see http://eslint.org/docs/rules/key-spacing
+     * @fixable
      */
     'key-spacing': 'error',
 
     /**
      * Enforce consistent spacing before and after keywords
      * @see http://eslint.org/docs/rules/keyword-spacing
+     * @fixable
      */
     'keyword-spacing': 'error',
 
@@ -153,12 +166,14 @@ module.exports = {
     /**
      * Enforce consistent linebreak style
      * @see http://eslint.org/docs/rules/linebreak-style
+     * @fixable
      */
     'linebreak-style': [ 'error', 'unix' ],
 
     /**
      * Require empty lines around comments
      * @see http://eslint.org/docs/rules/lines-around-comment
+     * @fixable
      */
     'lines-around-comment': [ 'error', {
       beforeBlockComment: true,
@@ -170,6 +185,7 @@ module.exports = {
     /**
      * Require or disallow newlines around directives
      * @see http://eslint.org/docs/rules/lines-around-directive
+     * @fixable
      */
     'lines-around-directive': [ 'error', {
       before: 'never',
@@ -257,18 +273,21 @@ module.exports = {
     /**
      * Require parentheses when invoking a constructor with no arguments
      * @see http://eslint.org/docs/rules/new-parens
+     * @fixable
      */
     'new-parens': 'error',
 
     /**
      * Require or disallow an empty line after variable declarations
      * @see http://eslint.org/docs/rules/newline-after-var
+     * @fixable
      */
     'newline-after-var': 'off',
 
     /**
      * Require an empty line before return statements
      * @see http://eslint.org/docs/rules/newline-before-return
+     * @fixable
      */
     'newline-before-return': 'off',
 
@@ -305,6 +324,7 @@ module.exports = {
     /**
      * Disallow if statements as the only statement in else blocks
      * @see http://eslint.org/docs/rules/no-lonely-if
+     * @fixable
      */
     'no-lonely-if': 'error',
 
@@ -323,6 +343,7 @@ module.exports = {
     /**
      * Disallow multiple empty lines
      * @see http://eslint.org/docs/rules/no-multiple-empty-lines
+     * @fixable
      */
     'no-multiple-empty-lines': [ 'error', {
       max: 1
@@ -373,6 +394,7 @@ module.exports = {
     /**
      * Disallow trailing whitespace at the end of lines
      * @see http://eslint.org/docs/rules/no-trailing-spaces
+     * @fixable
      */
     'no-trailing-spaces': 'error',
 
@@ -391,14 +413,16 @@ module.exports = {
     /**
      * Disallow whitespace before properties
      * @see http://eslint.org/docs/rules/no-whitespace-before-property
+     * @fixable
      */
     'no-whitespace-before-property': 'error',
 
     /**
      * Enforce consistent line breaks inside braces
      * @see http://eslint.org/docs/rules/object-curly-newline
+     * @fixable
+     * TODO: Enable once https://github.com/eslint/eslint/issues/6488 is resolved
      */
-    // TODO: Enable once https://github.com/eslint/eslint/issues/6488 is resolved
     'object-curly-newline': [ 'off', {
       minProperties: 0,
       multiline: true
@@ -407,6 +431,7 @@ module.exports = {
     /**
      * Enforce consistent spacing inside braces
      * @see http://eslint.org/docs/rules/object-curly-spacing
+     * @fixable
      */
     'object-curly-spacing': [ 'error', 'always' ],
 
@@ -421,6 +446,7 @@ module.exports = {
     /**
      * Require or disallow newlines around variable declarations
      * @see http://eslint.org/docs/rules/one-var-declaration-per-line
+     * @fixable
      */
     'one-var-declaration-per-line': 'off',
 
@@ -445,18 +471,21 @@ module.exports = {
     /**
      * Require or disallow padding within blocks
      * @see http://eslint.org/docs/rules/padded-blocks
+     * @fixable
      */
     'padded-blocks': 'off',
 
     /**
      * Require quotes around object literal property names
      * @see http://eslint.org/docs/rules/quote-props
+     * @fixable
      */
     'quote-props': [ 'error', 'consistent-as-needed' ],
 
     /**
      * Enforce the consistent use of either backticks, double, or single quotes
      * @see http://eslint.org/docs/rules/quotes
+     * @fixable
      */
     'quotes': [ 'error', 'single' ],
 
@@ -475,6 +504,7 @@ module.exports = {
     /**
      * Enforce consistent spacing before and after semicolons
      * @see http://eslint.org/docs/rules/semi-spacing
+     * @fixable
      */
     'semi-spacing': [ 'error', {
       before: false,
@@ -484,6 +514,7 @@ module.exports = {
     /**
      * Require or disallow semicolons instead of ASI
      * @see http://eslint.org/docs/rules/semi
+     * @fixable
      */
     'semi': [ 'error', 'never' ],
 
@@ -502,30 +533,35 @@ module.exports = {
     /**
      * Enforce consistent spacing before blocks
      * @see http://eslint.org/docs/rules/space-before-blocks
+     * @fixable
      */
     'space-before-blocks': [ 'error', 'always' ],
 
     /**
      * Enforce consistent spacing before function definition opening parenthesis
      * @see http://eslint.org/docs/rules/space-before-function-paren
+     * @fixable
      */
     'space-before-function-paren': [ 'error', 'never' ],
 
     /**
      * Enforce consistent spacing inside parentheses
      * @see http://eslint.org/docs/rules/space-in-parens
+     * @fixable
      */
     'space-in-parens': [ 'error', 'never' ],
 
     /**
      * Require spacing around infix operators
      * @see http://eslint.org/docs/rules/space-infix-ops
+     * @fixable
      */
     'space-infix-ops': 'error',
 
     /**
      * Enforce consistent spacing before or after unary operators
      * @see http://eslint.org/docs/rules/space-unary-ops
+     * @fixable
      */
     'space-unary-ops': [ 'error', {
       nonwords: false,
@@ -535,6 +571,7 @@ module.exports = {
     /**
      * Enforce consistent spacing after the // or /* in a comment
      * @see http://eslint.org/docs/rules/spaced-comment
+     * @fixable
      */
     'spaced-comment': [ 'error', 'always', {
       exceptions: [ '-', '=' ],
@@ -546,12 +583,14 @@ module.exports = {
     /**
      * Require or disallow Unicode byte order mark (BOM)
      * @see http://eslint.org/docs/rules/unicode-bom
+     * @fixable
      */
     'unicode-bom': [ 'error', 'never' ],
 
     /**
      * Require parenthesis around regex literals
      * @see http://eslint.org/docs/rules/wrap-regex
+     * @fixable
      */
     'wrap-regex': 'error'
   }

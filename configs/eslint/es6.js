@@ -9,6 +9,7 @@ module.exports = {
     /**
      * Require braces around arrow function bodies
      * @see http://eslint.org/docs/rules/arrow-body-style
+     * @fixable
      */
     'arrow-body-style': [ 'error', 'as-needed', {
       requireReturnForObjectLiteral: false
@@ -17,6 +18,7 @@ module.exports = {
     /**
      * Require parentheses around arrow function arguments
      * @see http://eslint.org/docs/rules/arrow-parens
+     * @fixable
      */
     'arrow-parens': [ 'error', 'as-needed', {
       requireForBlockBody: true
@@ -25,6 +27,7 @@ module.exports = {
     /**
      * Enforce consistent spacing before and after the arrow in arrow functions
      * @see http://eslint.org/docs/rules/arrow-spacing
+     * @fixable
      */
     'arrow-spacing': [ 'error', {
       before: true,
@@ -40,6 +43,7 @@ module.exports = {
     /**
      * Enforce consistent spacing around * operators in generator functions
      * @see http://eslint.org/docs/rules/generator-star-spacing
+     * @fixable
      */
     'generator-star-spacing': [ 'error', 'before' ],
 
@@ -98,6 +102,7 @@ module.exports = {
     /**
      * Disallow unnecessary computed property keys in object literals
      * @see http://eslint.org/docs/rules/no-useless-computed-key
+     * @fixable
      */
     'no-useless-computed-key': 'error',
 
@@ -110,30 +115,35 @@ module.exports = {
     /**
      * Disallow renaming import, export, and destructured assignments to the same name
      * @see http://eslint.org/docs/rules/no-useless-rename
+     * @fixable
      */
     'no-useless-rename': 'error',
 
     /**
      * Require let or const instead of var
      * @see http://eslint.org/docs/rules/no-var
+     * @fixable
      */
     'no-var': 'error',
 
     /**
      * Require or disallow method and property shorthand syntax for object literals
      * @see http://eslint.org/docs/rules/object-shorthand
+     * @fixable
      */
     'object-shorthand': [ 'error', 'always' ],
 
     /**
      * Require arrow functions as callbacks
      * @see http://eslint.org/docs/rules/prefer-arrow-callback
+     * @fixable
      */
     'prefer-arrow-callback': 'error',
 
     /**
      * Require const declarations for variables that are never reassigned after declared
      * @see http://eslint.org/docs/rules/prefer-const
+     * @fixable
      */
     'prefer-const': [ 'error', {
       destructuring: 'any',
@@ -143,6 +153,7 @@ module.exports = {
     /**
      * Disallow parseInt() in favor of binary, octal, and hexadecimal literals
      * @see http://eslint.org/docs/rules/prefer-numeric-literals
+     * @fixable
      */
     'prefer-numeric-literals': 'off',
 
@@ -161,12 +172,14 @@ module.exports = {
     /**
      * Require spread operators instead of .apply()
      * @see http://eslint.org/docs/rules/prefer-spread
+     * @fixable
      */
     'prefer-spread': 'error',
 
     /**
      * Require template literals instead of string concatenation
      * @see http://eslint.org/docs/rules/prefer-template
+     * @fixable
      */
     'prefer-template': 'error',
 
@@ -179,6 +192,7 @@ module.exports = {
     /**
      * Enforce spacing between rest and spread operators and their expressions
      * @see http://eslint.org/docs/rules/rest-spread-spacing
+     * @fixable
      */
     'rest-spread-spacing': [ 'error', 'never' ],
 
@@ -201,12 +215,14 @@ module.exports = {
     /**
      * Require or disallow spacing around embedded expressions of template strings
      * @see http://eslint.org/docs/rules/template-curly-spacing
+     * @fixable
      */
     'template-curly-spacing': [ 'error', 'never' ],
 
     /**
      * Require or disallow spacing around the * in yield* expressions
      * @see http://eslint.org/docs/rules/yield-star-spacing
+     * @fixable
      */
     'yield-star-spacing': [ 'error', 'before' ]
   }

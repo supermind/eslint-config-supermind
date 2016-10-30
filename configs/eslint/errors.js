@@ -81,12 +81,14 @@ module.exports = {
     /**
      * Disallow unnecessary parentheses
      * @see http://eslint.org/docs/rules/no-extra-parens
+     * @fixable
      */
     'no-extra-parens': 'error',
 
     /**
      * Disallow unnecessary semicolons
      * @see http://eslint.org/docs/rules/no-extra-semi
+     * @fixable
      */
     'no-extra-semi': 'error',
 
@@ -129,6 +131,7 @@ module.exports = {
     /**
      * Disallow multiple spaces in regular expressions
      * @see http://eslint.org/docs/rules/no-regex-spaces
+     * @fixable
      */
     'no-regex-spaces': 'error',
 
@@ -165,6 +168,7 @@ module.exports = {
     /**
      * Disallow negating the left operand of relational operators
      * @see http://eslint.org/docs/rules/no-unsafe-negation
+     * @fixable
      */
     'no-unsafe-negation': 'error',
 

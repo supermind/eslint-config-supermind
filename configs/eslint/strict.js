@@ -9,6 +9,7 @@ module.exports = {
     /**
      * Require or disallow strict mode directives
      * @see http://eslint.org/docs/rules/strict
+     * @fixable
      */
     strict: [ 'error', 'global' ]
   }
