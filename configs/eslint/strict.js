@@ -1,10 +1,15 @@
 module.exports = {
 
-  // http://eslint.org/docs/rules/#strict-mode
+  /**
+   * Strict mode rules
+   * @see http://eslint.org/docs/rules/#strict-mode
+   */
   rules: {
 
-    // Require or disallow strict mode directives
-    // http://eslint.org/docs/rules/strict
-    strict: [ 'error', 'never' ]
+    /**
+     * Require or disallow strict mode directives
+     * @see http://eslint.org/docs/rules/strict
+     */
+    strict: [ 'error', 'global' ]
   }
 }
