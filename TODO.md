@@ -1,4 +1,16 @@
-## ESLint
+## Scripts
+
+- [ ] `rules`
+- [ ] `rules --omitted`
+- [ ] `rules --disabled`
+
+## Rules
+
+### Supermind
+
+- [ ] `async methodNameAsync`
+
+### ESLint
 
 - [x] `best-practices`
 - [x] `errors`
@@ -8,23 +20,19 @@
 - [x] `stylistic`
 - [x] `variables`
 
-## Flowtype Plugin
+### Flowtype Plugin
 
 - [x] `flowtype`
 
-## Import Plugin
+### Import Plugin
 
 - [x] `helpful-warnings`
 - [x] `module-systems`
 - [x] `static-analysis`
 - [x] `style-guide`
 
-## React Plugin
+### React Plugin
 
 - [ ] `a11y`
 - [ ] `jsx`
 - [ ] `react`
-
-## Supermind Rules
-
-- [ ] `async methodNameAsync`
