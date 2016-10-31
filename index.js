@@ -21,11 +21,27 @@ module.exports = {
     es6: true
   },
 
+  // http://eslint.org/docs/user-guide/configuring#configuring-plugins
+  plugins: [
+    'import'
+  ],
+
   // http://eslint.org/docs/user-guide/configuring#extending-configuration-files
   extends: [
-    './configs/eslint',
-    './configs/flowtype',
-    './configs/import',
-    './configs/react'
+
+    // ESLint base rules
+    './rules/eslint/best-practices',
+    './rules/eslint/errors',
+    './rules/eslint/es6',
+    './rules/eslint/node',
+    './rules/eslint/strict',
+    './rules/eslint/stylistic',
+    './rules/eslint/variables',
+
+    // Import plugin rules
+    './rules/import/helpful-warnings',
+    './rules/import/module-systems',
+    './rules/import/static-analysis',
+    './rules/import/style-guide'
   ].map(require.resolve)
 }

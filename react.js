@@ -9,8 +9,8 @@ module.exports = {
     'jsx-a11y'
   ],
   extends: [
-    './a11y',
-    './jsx',
-    './react'
+    './rules/react/a11y',
+    './rules/react/jsx',
+    './rules/react/react'
   ].map(require.resolve)
 }

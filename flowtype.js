@@ -8,6 +8,6 @@ module.exports = {
     'flowtype'
   ],
   extends: [
-    './flowtype'
+    './rules/flowtype/flowtype'
   ].map(require.resolve)
 }

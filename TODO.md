@@ -4,6 +4,7 @@
 - [ ] `rules --omitted`
 - [ ] `rules --disabled`
 - [ ] `rules --deprecated`
+- [ ] `rules --count`
 
 ## Rules
 
