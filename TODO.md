@@ -3,6 +3,7 @@
 - [ ] `rules`
 - [ ] `rules --omitted`
 - [ ] `rules --disabled`
+- [ ] `rules --deprecated`
 
 ## Rules
 
