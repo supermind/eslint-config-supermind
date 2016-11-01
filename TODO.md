@@ -37,4 +37,4 @@
 
 - [ ] `a11y`
 - [x] `jsx`
-- [ ] `react`
+- [x] `react`
