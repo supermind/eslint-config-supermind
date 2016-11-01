@@ -36,5 +36,5 @@
 ### React Plugin
 
 - [ ] `a11y`
-- [ ] `jsx`
+- [x] `jsx`
 - [ ] `react`
