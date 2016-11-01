@@ -25,7 +25,7 @@ module.exports = {
 }
 ```
 
-Add a `lint` script to your `package.json` scripts field:
+Add a `lint` script in your project `package.json` file:
 
 ```json
 {
