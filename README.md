@@ -44,12 +44,6 @@ yarn run lint
 
 ## Development
 
-To lint the files within the repository run:
-
-```bash
-yarn run lint
-```
-
 To ensure that all available rules are specified throughout the config files run:
 
 ```bash
