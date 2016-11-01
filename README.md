@@ -12,7 +12,7 @@ Add `eslint-config-supermind` as a `devDependency` to your project:
 yarn add eslint-config-supermind --dev
 ```
 
-Create an `.eslintrc.js` file at the root of your project:
+Create an `.eslintrc.js` file at the root of your project and add the following configuration:
 
 ```js
 module.exports = {
