@@ -6,10 +6,10 @@ Install [yarn](https://yarnpkg.com/) globally:
 npm install yarn --global
 ```
 
-Add `eslint-config-supermind` as a `devDependency` to your project:
+Add `eslint` and `eslint-config-supermind` as a `devDependency` to your project:
 
 ```bash
-yarn add eslint-config-supermind --dev
+yarn add eslint eslint-config-supermind --dev
 ```
 
 Create an `.eslintrc.js` file at the root of your project and add the following configuration:
@@ -23,6 +23,23 @@ module.exports = {
     'supermind/react'     // Extend React configuration
   ]
 }
+```
+
+Add a `lint` script to your `package.json` scripts field:
+
+```json
+{
+  "name": "kitten-socks",
+  "scripts": {
+    "lint": "eslint source"
+  }
+}
+```
+
+To lint the `source` directory of your project run:
+
+```bash
+yarn run lint
 ```
 
 ## Development
