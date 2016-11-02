@@ -1,10 +1,12 @@
-## Scripts
+## Module
 
 - [ ] `rules`
 - [ ] `rules --count`
 - [ ] `rules --omitted`
 - [ ] `rules --disabled`
 - [ ] `rules --deprecated`
+
+## Package Scripts
 
 - [ ] `list-rules`
 - [ ] `count-rules`
@@ -32,18 +34,18 @@
 - [x] `stylistic`
 - [x] `variables`
 
-### Flowtype Plugin
+### Flowtype
 
 - [x] `flowtype`
 
-### Import Plugin
+### Import
 
 - [x] `helpful-warnings`
 - [x] `module-systems`
 - [x] `static-analysis`
 - [x] `style-guide`
 
-### React Plugin
+### React
 
 - [x] `a11y`
 - [x] `jsx`
