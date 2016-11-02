@@ -160,7 +160,7 @@ module.exports = {
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
      */
     'react/require-optimization': [ 'error', {
-      allowDecorators: false
+      allowDecorators: []
     }],
 
     /**
