@@ -43,5 +43,6 @@ module.exports = {
     './rules/import/module-systems',
     './rules/import/static-analysis',
     './rules/import/style-guide'
+
   ].map(require.resolve)
 }
