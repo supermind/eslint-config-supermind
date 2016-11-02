@@ -5,8 +5,8 @@ module.exports = {
     }
   },
   plugins: [
-    'react',
-    'jsx-a11y'
+    'jsx-a11y',
+    'react'
   ],
   extends: [
     './rules/react/a11y',
