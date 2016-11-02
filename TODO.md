@@ -1,10 +1,19 @@
 ## Scripts
 
 - [ ] `rules`
+- [ ] `rules --count`
 - [ ] `rules --omitted`
 - [ ] `rules --disabled`
 - [ ] `rules --deprecated`
-- [ ] `rules --count`
+
+- [ ] `list-rules`
+- [ ] `count-rules`
+- [ ] `list-omitted-rules`
+- [ ] `count-omitted-rules`
+- [ ] `list-disabled-rules`
+- [ ] `count-disabled-rules`
+- [ ] `list-deprecated-rules`
+- [ ] `count-deprecated-rules`
 
 ## Rules
 
