@@ -18,9 +18,9 @@ Create an `.eslintrc.js` file at the root of your project and add the following 
 module.exports = {
   root: true, // Prevent ESLint from inheriting configuration above this file
   extends: [
-    'supermind',          // Extend base configuration
-    'supermind/flowtype', // Extend Flow configuration
-    'supermind/react'     // Extend React configuration
+    'supermind',          // Extend base config
+    'supermind/flowtype', // Extend flowtype config (optional)
+    'supermind/react'     // Extend react config (optional)
   ]
 }
 ```
