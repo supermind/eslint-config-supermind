@@ -1,4 +1,4 @@
-## Module
+## Module Scripts
 
 - [ ] `rules`
 - [ ] `rules --count`
