@@ -20,6 +20,7 @@
 ### Supermind
 
 - [ ] `async methodNameAsync`
+- [ ] `comment divider`
 
 ### ESLint
 
