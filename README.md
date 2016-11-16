@@ -47,7 +47,5 @@ yarn run lint
 To ensure that all available rules are specified throughout the config files run:
 
 ```bash
-yarn run find-unused-rules
+yarn run list-omitted-rules
 ```
-
-**NOTE:** Some rules have been [deprecated](deprecated.js) and should not be added to the config files.

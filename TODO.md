@@ -1,21 +1,14 @@
-## Module Scripts
-
-- [ ] `rules`
-- [ ] `rules --count`
-- [ ] `rules --omitted`
-- [ ] `rules --disabled`
-- [ ] `rules --deprecated`
-
 ## Package Scripts
 
-- [ ] `list-rules`
-- [ ] `count-rules`
-- [ ] `list-omitted-rules`
-- [ ] `count-omitted-rules`
-- [ ] `list-disabled-rules`
-- [ ] `count-disabled-rules`
-- [ ] `list-deprecated-rules`
-- [ ] `count-deprecated-rules`
+- [x] `list-rules`
+- [x] `table-rules`
+- [x] `count-rules`
+- [x] `list-omitted-rules`
+- [x] `count-omitted-rules`
+- [x] `list-enabled-rules`
+- [x] `count-enabled-rules`
+- [x] `list-disabled-rules`
+- [x] `count-disabled-rules`
 
 ## Rules
 
