@@ -4,8 +4,7 @@
   "description": "Supermind's ESLint configuration",
   "homepage": "https://github.com/supermind-hq/eslint-config-supermind#readme",
   "author": "Matthew Wagerfield <matthew@supermind.com>",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
