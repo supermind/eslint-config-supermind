@@ -9,8 +9,15 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "find-all-rules": "eslint-find-rules --all-available .eslintrc.js",
-    "find-unused-rules": "eslint-find-rules --unused .eslintrc.js"
+    "list-rules": "eslint-index .eslintrc.js",
+    "table-rules": "eslint-index .eslintrc.js --format table",
+    "count-rules": "eslint-index .eslintrc.js --format count",
+    "list-omitted-rules": "eslint-index .eslintrc.js --status omitted",
+    "count-omitted-rules": "eslint-index .eslintrc.js --status omitted --format count",
+    "list-enabled-rules": "eslint-index .eslintrc.js --status warn error",
+    "count-enabled-rules": "eslint-index .eslintrc.js --status warn error --format count",
+    "list-disabled-rules": "eslint-index .eslintrc.js --status omitted off",
+    "count-disabled-rules": "eslint-index .eslintrc.js --status omitted off --format count"
   },
   "keywords": [
     "eslint",
@@ -34,7 +41,7 @@
     "eslint-plugin-react": "^6.4.1"
   },
   "devDependencies": {
-    "eslint-find-rules": "^1.14.2"
+    "eslint-index": "^0.1.0"
   },
   "peerDependencies": {
     "eslint": "^3.9.0"
