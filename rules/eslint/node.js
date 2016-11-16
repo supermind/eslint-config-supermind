@@ -64,6 +64,6 @@ module.exports = {
      * Disallow synchronous methods
      * @see http://eslint.org/docs/rules/no-sync
      */
-    'no-sync': 'error'
+    'no-sync': 'off'
   }
 }

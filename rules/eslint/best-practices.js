@@ -334,6 +334,12 @@ module.exports = {
     'no-return-assign': [ 'error', 'always' ],
 
     /**
+     * Disallow unnecessary return await
+     * @see http://eslint.org/docs/rules/no-return-await
+     */
+    'no-return-await': 'error',
+
+    /**
      * Disallow javascript: urls
      * @see http://eslint.org/docs/rules/no-script-url
      */
