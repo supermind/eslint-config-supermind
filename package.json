@@ -40,7 +40,7 @@
     "eslint-plugin-react": "^6.4.1"
   },
   "devDependencies": {
-    "eslint-index": "^0.1.0"
+    "eslint-index": "^0.2.0"
   },
   "peerDependencies": {
     "eslint": "^3.9.0"
