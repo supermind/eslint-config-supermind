@@ -8,6 +8,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "update-patch": "npm version patch",
+    "update-minor": "npm version minor",
+    "update-major": "npm version major",
     "list-rules": "eslint-index .eslintrc.js",
     "table-rules": "eslint-index .eslintrc.js --format table",
     "count-rules": "eslint-index .eslintrc.js --format count",
