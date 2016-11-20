@@ -350,9 +350,9 @@ eslint-import-resolver-node@^0.2.0:
     object-assign "^4.0.1"
     resolve "^1.1.6"
 
-eslint-index@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-index/-/eslint-index-0.3.0.tgz#d8c79dc20b03de478c139858e98c34eaa1f927e1"
+eslint-index@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-index/-/eslint-index-0.5.0.tgz#d00f507c95f42c4538f63ffa72c7f81dc400d6e6"
   dependencies:
     chalk "^1.1.3"
     cli-table2 "^0.2.0"
