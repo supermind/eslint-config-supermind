@@ -10,13 +10,13 @@ module.exports = {
      * Report AMD require and define calls
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md
      */
-    'import/no-amd': 'error',
+    'import/no-amd': 'off',
 
     /**
      * Report CommonJS require calls and module.exports or exports.*
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
      */
-    'import/no-commonjs': 'error',
+    'import/no-commonjs': 'off',
 
     /**
      * No Node.js builtin modules
@@ -28,6 +28,6 @@ module.exports = {
      * Report potentially ambiguous parse goal (script vs. module)
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md
      */
-    'import/unambiguous': 'error'
+    'import/unambiguous': 'off'
   }
 }
