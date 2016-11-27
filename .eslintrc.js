@@ -6,8 +6,6 @@ module.exports = {
     './react.js'
   ],
   rules: {
-    'max-len': 'off',
-    'import/no-commonjs': 'off',
-    'import/unambiguous': 'off'
+    'max-len': 'off'
   }
 }
