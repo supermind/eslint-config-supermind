@@ -35,17 +35,17 @@
     "url": "https://github.com/supermind-hq/eslint-config-supermind/issues"
   },
   "dependencies": {
-    "babel-eslint": "^7.1.0",
-    "eslint": "^3.10.2",
-    "eslint-plugin-flowtype": "^2.25.0",
-    "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.4.1"
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.11.0",
+    "eslint-plugin-flowtype": "^2.28.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
+    "eslint-plugin-react": "^6.7.1"
   },
   "devDependencies": {
     "eslint-index": "^0.6.0"
   },
   "peerDependencies": {
-    "eslint": "^3.10.2"
+    "eslint": "^3.11.0"
   }
 }

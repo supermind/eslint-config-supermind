@@ -40,6 +40,12 @@ module.exports = {
     'flowtype/no-dupe-keys': 'error',
 
     /**
+     * Disallows use of primitive constructors as types, such as Boolean, Number and String
+     * @see https://github.com/gajus/eslint-plugin-flowtype#no-primitive-constructor-types
+     */
+    'flowtype/no-primitive-constructor-types': 'error',
+
+    /**
      * Warns against weak type annotations any, Object and Function
      * @see https://github.com/gajus/eslint-plugin-flowtype#no-weak-types
      */
@@ -74,6 +80,18 @@ module.exports = {
      * @see https://github.com/gajus/eslint-plugin-flowtype#require-valid-file-annotation
      */
     'flowtype/require-valid-file-annotation': [ 'error', 'never' ],
+
+    /**
+     * Requires that all variable declarators have type annotations
+     * @see https://github.com/gajus/eslint-plugin-flowtype#require-variable-type
+     */
+    'flowtype/require-variable-type': [ 'error', {
+      excludeVariableTypes: {
+        const: false,
+        let: false,
+        var: false
+      }
+    }],
 
     /**
      * Enforces consistent use of semicolons after type aliases

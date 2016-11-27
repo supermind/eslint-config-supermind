@@ -10,7 +10,9 @@ module.exports = {
      * Enforce all anchors to contain accessible content
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md
      */
-    'jsx-a11y/anchor-has-content': 'error',
+    'jsx-a11y/anchor-has-content': [ 'error', {
+      components: [ 'Anchor', 'Link' ]
+    }],
 
     /**
      * Enforce all aria-* props are valid
@@ -46,13 +48,17 @@ module.exports = {
      * Enforce heading (h1, h2, etc) elements contain accessible content
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/heading-has-content.md
      */
-    'jsx-a11y/heading-has-content': 'error',
+    'jsx-a11y/heading-has-content': [ 'error', {
+      components: [ 'Header', 'Heading' ]
+    }],
 
     /**
      * Enforce an anchor element's href prop value is not just #
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/href-no-hash.md
      */
-    'jsx-a11y/href-no-hash': 'error',
+    'jsx-a11y/href-no-hash': [ 'error', {
+      components: [ 'Anchor', 'Link' ]
+    }],
 
     /**
      * Enforce <html> element has lang prop
@@ -64,19 +70,26 @@ module.exports = {
      * Enforce that <img> JSX elements use the alt prop
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-has-alt.md
      */
-    'jsx-a11y/img-has-alt': [ 'error', [ 'Image' ]],
+    'jsx-a11y/img-has-alt': [ 'error', {
+      components: [ 'Image' ]
+    }],
 
     /**
      * Enforce <img> alt prop does not contain the word "image", "picture", or "photo"
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-redundant-alt.md
      */
-    'jsx-a11y/img-redundant-alt': 'error',
+    'jsx-a11y/img-redundant-alt': [ 'error', {
+      words: [ 'image', 'photo', 'picture' ],
+      components: [ 'Image' ]
+    }],
 
     /**
      * Enforce that <label> elements have the htmlFor prop
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
      */
-    'jsx-a11y/label-has-for': 'error',
+    'jsx-a11y/label-has-for': [ 'error', {
+      components: [ 'Label' ]
+    }],
 
     /**
      * Enforce lang attribute has a valid value

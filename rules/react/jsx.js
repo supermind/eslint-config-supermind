@@ -153,6 +153,17 @@ module.exports = {
     'react/jsx-space-before-closing': [ 'error', 'never' ],
 
     /**
+     * Validate whitespace in and around the JSX opening and closing brackets
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
+     * @fixable
+     */
+    'react/jsx-tag-spacing': [ 'error', {
+      beforeSelfClosing: 'never',
+      afterOpening: 'never',
+      closingSlash: 'never'
+    }],
+
+    /**
      * Prevent React to be incorrectly marked as unused
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
      */

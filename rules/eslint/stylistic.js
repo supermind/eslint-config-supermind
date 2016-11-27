@@ -39,6 +39,15 @@ module.exports = {
     'camelcase': 'error',
 
     /**
+     * Enforce or disallow capitalization of the first letter of a comment
+     * @see http://eslint.org/docs/rules/capitalized-comments
+     */
+    'capitalized-comments': [ 'error', 'always', {
+      ignoreConsecutiveComments: true,
+      ignoreInlineComments: false
+    }],
+
+    /**
      * Require or disallow trailing commas
      * @see http://eslint.org/docs/rules/comma-dangle
      * @fixable

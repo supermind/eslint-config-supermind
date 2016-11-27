@@ -444,6 +444,12 @@ module.exports = {
     'radix': [ 'error', 'always' ],
 
     /**
+     * Disallow async functions which have no await expression
+     * @see http://eslint.org/docs/rules/require-await
+     */
+    'require-await': 'error',
+
+    /**
      * Require var declarations be placed at the top of their containing scope
      * @see http://eslint.org/docs/rules/vars-on-top
      */
