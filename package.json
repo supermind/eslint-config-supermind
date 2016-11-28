@@ -2,7 +2,7 @@
   "name": "eslint-config-supermind",
   "version": "0.6.0",
   "description": "Supermind's ESLint configuration",
-  "homepage": "https://github.com/supermind-hq/eslint-config-supermind#readme",
+  "homepage": "https://github.com/supermind/eslint-config-supermind#readme",
   "author": "Matthew Wagerfield <matthew@supermind.com>",
   "license": "MIT",
   "main": "index.js",
@@ -29,10 +29,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supermind-hq/eslint-config-supermind.git"
+    "url": "git+https://github.com/supermind/eslint-config-supermind.git"
   },
   "bugs": {
-    "url": "https://github.com/supermind-hq/eslint-config-supermind/issues"
+    "url": "https://github.com/supermind/eslint-config-supermind/issues"
   },
   "dependencies": {
     "babel-eslint": "^7.1.1",
