@@ -11,14 +11,14 @@
     "update-patch": "npm version patch",
     "update-minor": "npm version minor",
     "update-major": "npm version major",
-    "list-rules": "eslint-index .eslintrc.js",
+    "list-rules": "eslint-index .eslintrc.js --docs",
     "table-rules": "eslint-index .eslintrc.js --format table",
     "count-rules": "eslint-index .eslintrc.js --format count",
-    "list-omitted-rules": "eslint-index .eslintrc.js --status omitted",
+    "list-omitted-rules": "eslint-index .eslintrc.js --status omitted --docs",
     "count-omitted-rules": "eslint-index .eslintrc.js --status omitted --format count",
-    "list-enabled-rules": "eslint-index .eslintrc.js --status warn error",
+    "list-enabled-rules": "eslint-index .eslintrc.js --status warn error --docs",
     "count-enabled-rules": "eslint-index .eslintrc.js --status warn error --format count",
-    "list-disabled-rules": "eslint-index .eslintrc.js --status omitted off",
+    "list-disabled-rules": "eslint-index .eslintrc.js --status omitted off --docs",
     "count-disabled-rules": "eslint-index .eslintrc.js --status omitted off --format count"
   },
   "keywords": [
