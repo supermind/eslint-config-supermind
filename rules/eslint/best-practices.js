@@ -56,7 +56,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/curly
      * @fixable
      */
-    'curly': [ 'error', 'all' ],
+    'curly': [ 'error', 'multi-line', 'consistent' ],
 
     /**
      * Require default cases in switch statements
