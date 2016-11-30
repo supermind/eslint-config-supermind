@@ -13,13 +13,13 @@
     "update-major": "npm version major",
     "list-rules": "eslint-index .eslintrc.js --docs",
     "table-rules": "eslint-index .eslintrc.js --format table",
-    "count-rules": "eslint-index .eslintrc.js --format count",
+    "count-rules": "eslint-index .eslintrc.js --format number",
     "list-omitted-rules": "eslint-index .eslintrc.js --status omitted --docs",
-    "count-omitted-rules": "eslint-index .eslintrc.js --status omitted --format count",
+    "count-omitted-rules": "eslint-index .eslintrc.js --status omitted --format number",
     "list-enabled-rules": "eslint-index .eslintrc.js --status warn error --docs",
-    "count-enabled-rules": "eslint-index .eslintrc.js --status warn error --format count",
+    "count-enabled-rules": "eslint-index .eslintrc.js --status warn error --format number",
     "list-disabled-rules": "eslint-index .eslintrc.js --status omitted off --docs",
-    "count-disabled-rules": "eslint-index .eslintrc.js --status omitted off --format count"
+    "count-disabled-rules": "eslint-index .eslintrc.js --status omitted off --format number"
   },
   "keywords": [
     "eslint",
@@ -43,7 +43,7 @@
     "eslint-plugin-react": "^6.7.1"
   },
   "devDependencies": {
-    "eslint-index": "^0.7.0"
+    "eslint-index": "^0.9.0"
   },
   "peerDependencies": {
     "eslint": "^3.11.1"

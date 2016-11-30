@@ -351,13 +351,13 @@ eslint-import-resolver-node@^0.2.0:
     object-assign "^4.0.1"
     resolve "^1.1.6"
 
-eslint-index@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-index/-/eslint-index-0.7.0.tgz#9b67ac6d6c1c3a6a58fc23de80992e18379f6a4a"
+eslint-index@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-index/-/eslint-index-0.9.0.tgz#21fffe48ada3e24237c0076f899f8c37603ad74d"
   dependencies:
     chalk "^1.1.3"
     cli-table2 "^0.2.0"
-    eslint "^3.11.0"
+    eslint "^3.11.1"
     lodash "^4.17.2"
     yargs "^6.4.0"
 
@@ -404,7 +404,7 @@ eslint-plugin-react@^6.7.1:
     doctrine "^1.2.2"
     jsx-ast-utils "^1.3.3"
 
-eslint@^3.11.0, eslint@^3.11.1:
+eslint@^3.11.1:
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.11.1.tgz#408be581041385cba947cd8d1cd2227782b55dbf"
   dependencies:
