@@ -79,7 +79,9 @@ module.exports = {
      * Validates Flow file annotations
      * @see https://github.com/gajus/eslint-plugin-flowtype#require-valid-file-annotation
      */
-    'flowtype/require-valid-file-annotation': [ 'error', 'never' ],
+    'flowtype/require-valid-file-annotation': [ 'error', 'never', {
+      annotationStyle: 'block'
+    }],
 
     /**
      * Requires that all variable declarators have type annotations
