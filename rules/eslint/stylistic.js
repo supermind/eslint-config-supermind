@@ -42,7 +42,7 @@ module.exports = {
      * Enforce or disallow capitalization of the first letter of a comment
      * @see http://eslint.org/docs/rules/capitalized-comments
      */
-    'capitalized-comments': [ 'error', 'always', {
+    'capitalized-comments': [ 'off', 'always', {
       ignoreConsecutiveComments: true,
       ignoreInlineComments: false
     }],
