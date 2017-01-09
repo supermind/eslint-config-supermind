@@ -200,7 +200,7 @@ module.exports = {
      * Enforce sorted import declarations within modules
      * @see http://eslint.org/docs/rules/sort-imports
      */
-    'sort-imports': [ 'error', {
+    'sort-imports': [ 'off', {
       ignoreCase: false,
       ignoreMemberSort: false,
       memberSyntaxSortOrder: [ 'none', 'all', 'multiple', 'single' ]
