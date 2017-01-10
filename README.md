@@ -20,6 +20,7 @@ module.exports = {
   extends: [
     'supermind',          // Extend base config
     'supermind/react',    // Extend react config (optional)
+    'supermind/inferno',  // Extend inferno config (optional)
     'supermind/jsx-a11y', // Extend jsx-a11y config (optional)
     'supermind/flowtype'  // Extend flowtype config (optional)
   ]
