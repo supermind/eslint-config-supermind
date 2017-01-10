@@ -8,7 +8,7 @@ module.exports = {
     'react'
   ],
   extends: [
-    './rules/react/jsx',
-    './rules/react/react'
+    './rules/react/react',
+    './rules/react/jsx'
   ].map(require.resolve)
 }

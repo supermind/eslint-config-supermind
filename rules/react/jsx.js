@@ -49,7 +49,7 @@ module.exports = {
      * Enforce position of the first prop in JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
      */
-    'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],
+    'react/jsx-first-prop-new-line': 'off',
 
     /**
      * Enforce event handler naming conventions in JSX
@@ -83,9 +83,7 @@ module.exports = {
      * Limit maximum of props on a single line in JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
      */
-    'react/jsx-max-props-per-line': [ 'error', {
-      maximum: 2
-    }],
+    'react/jsx-max-props-per-line': 'off',
 
     /**
      * Prevent usage of .bind() and arrow functions in JSX props
@@ -139,11 +137,7 @@ module.exports = {
      * Enforce props alphabetical sorting
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
      */
-    'react/jsx-sort-props': [ 'error', {
-      callbacksLast: true,
-      shorthandFirst: true,
-      ignoreCase: false
-    }],
+    'react/jsx-sort-props': 'off',
 
     /**
      * Validate spacing before closing bracket in JSX
