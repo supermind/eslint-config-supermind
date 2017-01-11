@@ -259,9 +259,7 @@ module.exports = {
      * Enforce a maximum number of statements allowed in function blocks
      * @see http://eslint.org/docs/rules/max-statements
      */
-    'max-statements': [ 'error', {
-      max: 10
-    }],
+    'max-statements': 'off',
 
     /**
      * Enforce newlines between operands of ternary expressions
