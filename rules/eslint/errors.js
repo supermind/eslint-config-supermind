@@ -83,7 +83,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/no-extra-parens
      * @fixable
      */
-    'no-extra-parens': 'error',
+    'no-extra-parens': 'off',
 
     /**
      * Disallow unnecessary semicolons
