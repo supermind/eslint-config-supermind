@@ -7,6 +7,12 @@ module.exports = {
   rules: {
 
     /**
+     * Disallow await inside of loops
+     * @see http://eslint.org/docs/rules/no-await-in-loop
+     */
+    'no-await-in-loop': 'error',
+
+    /**
      * Disallow assignment operators in conditional expressions
      * @see http://eslint.org/docs/rules/no-cond-assign
      */
