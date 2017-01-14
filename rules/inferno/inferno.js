@@ -95,6 +95,12 @@ module.exports = {
     }],
 
     /**
+     * Prevent usage of the return value of Inferno.render
+     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-render-return-value.md
+     */
+    'inferno/no-render-return-value': 'error',
+
+    /**
      * Prevent usage of setState
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-set-state.md
      */
