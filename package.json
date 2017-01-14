@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint": "^3.11.1",
+    "eslint": "^3.13.1",
     "eslint-plugin-flowtype": "^2.28.2",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-inferno": "^6.8.0",
@@ -47,6 +47,6 @@
     "eslint-index": "^1.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3.11.1"
+    "eslint": "^3.13.1"
   }
 }
