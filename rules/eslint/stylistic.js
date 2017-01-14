@@ -244,7 +244,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/max-params
      */
     'max-params': [ 'error', {
-      max: 4
+      max: 5
     }],
 
     /**
