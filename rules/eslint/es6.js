@@ -151,6 +151,17 @@ module.exports = {
     }],
 
     /**
+     * Require destructuring from arrays and/or objects
+     * @see http://eslint.org/docs/rules/prefer-destructuring
+     */
+    'prefer-destructuring': [ 'error', {
+      array: true,
+      object: true
+    }, {
+      enforceForRenamedProperties: true
+    }],
+
+    /**
      * Disallow parseInt() in favor of binary, octal, and hexadecimal literals
      * @see http://eslint.org/docs/rules/prefer-numeric-literals
      * @fixable
@@ -200,7 +211,7 @@ module.exports = {
      * Enforce sorted import declarations within modules
      * @see http://eslint.org/docs/rules/sort-imports
      */
-    'sort-imports': [ 'error', {
+    'sort-imports': [ 'off', {
       ignoreCase: false,
       ignoreMemberSort: false,
       memberSyntaxSortOrder: [ 'none', 'all', 'multiple', 'single' ]

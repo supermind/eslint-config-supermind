@@ -2,8 +2,10 @@ module.exports = {
   root: true,
   extends: [
     './index.js',
-    './flowtype.js',
-    './react.js'
+    './react.js',
+    './inferno.js',
+    './jsx-a11y.js',
+    './flowtype.js'
   ],
   rules: {
     'max-len': 'off',

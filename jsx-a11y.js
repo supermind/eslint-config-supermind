@@ -5,10 +5,9 @@ module.exports = {
     }
   },
   plugins: [
-    'react'
+    'jsx-a11y'
   ],
   extends: [
-    './rules/react/react',
-    './rules/react/jsx'
+    './rules/jsx-a11y/jsx-a11y'
   ].map(require.resolve)
 }

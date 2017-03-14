@@ -60,7 +60,7 @@ module.exports = {
      * Prefer a default export if module exports a single name
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
      */
-    'import/prefer-default-export': 'error',
+    'import/prefer-default-export': 'off',
 
     /**
      * Limit the maximum number of dependencies a module can have

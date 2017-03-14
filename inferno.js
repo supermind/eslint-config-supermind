@@ -5,10 +5,10 @@ module.exports = {
     }
   },
   plugins: [
-    'react'
+    'inferno'
   ],
   extends: [
-    './rules/react/react',
-    './rules/react/jsx'
+    './rules/inferno/inferno',
+    './rules/inferno/jsx'
   ].map(require.resolve)
 }

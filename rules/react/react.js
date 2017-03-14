@@ -1,7 +1,7 @@
 module.exports = {
 
   /**
-   * React plugin JSX rules
+   * React plugin rules
    * @see https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
    */
   rules: {

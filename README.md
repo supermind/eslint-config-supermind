@@ -19,8 +19,10 @@ module.exports = {
   root: true, // Prevent ESLint from inheriting configuration above this file
   extends: [
     'supermind',          // Extend base config
-    'supermind/flowtype', // Extend flowtype config (optional)
-    'supermind/react'     // Extend react config (optional)
+    'supermind/react',    // Extend react config (optional)
+    'supermind/inferno',  // Extend inferno config (optional)
+    'supermind/jsx-a11y', // Extend jsx-a11y config (optional)
+    'supermind/flowtype'  // Extend flowtype config (optional)
   ]
 }
 ```
