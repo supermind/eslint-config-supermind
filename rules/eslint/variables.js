@@ -10,7 +10,7 @@ module.exports = {
      * Require or disallow initialization in variable declarations
      * @see http://eslint.org/docs/rules/init-declarations
      */
-    'init-declarations': [ 'error', 'always' ],
+    'init-declarations': [ 'off', 'always' ],
 
     /**
      * Disallow catch clause parameters from shadowing variables in the outer scope
