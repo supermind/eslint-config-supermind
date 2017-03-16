@@ -198,7 +198,7 @@ module.exports = {
      * Require generator functions to contain yield
      * @see http://eslint.org/docs/rules/require-yield
      */
-    'require-yield': 'off',
+    'require-yield': 'error',
 
     /**
      * Enforce spacing between rest and spread operators and their expressions
