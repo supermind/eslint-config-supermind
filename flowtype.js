@@ -1,7 +1,7 @@
 module.exports = {
   settings: {
     flowtype: {
-      onlyFilesWithFlowAnnotation: false
+      onlyFilesWithFlowAnnotation: true
     }
   },
   plugins: [

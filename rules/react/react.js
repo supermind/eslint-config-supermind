@@ -21,12 +21,30 @@ module.exports = {
     }],
 
     /**
+     * Forbid certain elements
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-elements.md
+     */
+    'react/forbid-elements': 'off',
+
+    /**
+     * Forbid foreign propTypes
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
+     */
+    'react/forbid-foreign-prop-types': 'error',
+
+    /**
      * Forbid certain propTypes
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
      */
     'react/forbid-prop-types': [ 'error', {
       forbid: [ 'any', 'array', 'object' ]
     }],
+
+    /**
+     * Prevent usage of Array index in keys
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
+     */
+    'react/no-array-index-key': 'error',
 
     /**
      * Prevent passing children as props
@@ -153,7 +171,13 @@ module.exports = {
      * Prevent missing React when using JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
      */
-    'react/react-in-jsx-scope': 'error',
+    'react/react-in-jsx-scope': 'off',
+
+    /**
+     * Enforce a defaultProps definition for every prop that is not a required prop
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
+     */
+    'react/require-default-props': 'error',
 
     /**
      * Enforce React components to have a shouldComponentUpdate method
@@ -231,6 +255,12 @@ module.exports = {
      * Enforce style prop value being an object
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
      */
-    'react/style-prop-object': 'error'
+    'react/style-prop-object': 'error',
+
+    /**
+     * Prevent void DOM elements (e.g. <img/>, <br/>) from receiving children
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md
+     */
+    'react/void-dom-elements-no-children': 'error'
   }
 }

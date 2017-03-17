@@ -13,6 +13,12 @@ module.exports = {
     'no-await-in-loop': 'error',
 
     /**
+     * Disallow comparing against -0
+     * @see http://eslint.org/docs/rules/no-compare-neg-zero
+     */
+    'no-compare-neg-zero': 'error',
+
+    /**
      * Disallow assignment operators in conditional expressions
      * @see http://eslint.org/docs/rules/no-cond-assign
      */

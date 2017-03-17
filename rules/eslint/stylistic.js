@@ -348,6 +348,12 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 'error',
 
     /**
+     * Disallow use of chained assignment expressions
+     * @see http://eslint.org/docs/rules/no-multi-assign
+     */
+    'no-multi-assign': 'off',
+
+    /**
      * Disallow multiple empty lines
      * @see http://eslint.org/docs/rules/no-multiple-empty-lines
      * @fixable
@@ -423,6 +429,13 @@ module.exports = {
      * @fixable
      */
     'no-whitespace-before-property': 'error',
+
+    /**
+     * Enforce the location of single-line statements
+     * @see http://eslint.org/docs/rules/nonblock-statement-body-position
+     * @fixable
+     */
+    'nonblock-statement-body-position': [ 'error', 'beside' ],
 
     /**
      * Enforce consistent line breaks inside braces
@@ -586,6 +599,13 @@ module.exports = {
         balanced: true
       }
     }],
+
+    /**
+     * Require or disallow spacing between template tags and their literals
+     * @see http://eslint.org/docs/rules/template-tag-spacing
+     * @fixable
+     */
+    'template-tag-spacing': [ 'error', 'always' ],
 
     /**
      * Require or disallow Unicode byte order mark (BOM)

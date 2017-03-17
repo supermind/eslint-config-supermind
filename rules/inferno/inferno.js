@@ -21,6 +21,18 @@ module.exports = {
     'inferno/forbid-component-props': 'error',
 
     /**
+     * Forbid certain elements
+     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/forbid-elements.md
+     */
+    'inferno/forbid-elements': 'off',
+
+    /**
+     * Forbid foreign propTypes
+     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/forbid-foreign-prop-types.md
+     */
+    'inferno/forbid-foreign-prop-types': 'error',
+
+    /**
      * Forbid certain propTypes
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/forbid-prop-types.md
      */
@@ -150,14 +162,14 @@ module.exports = {
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/prop-types.md
      */
     'inferno/prop-types': [ 'error', {
-      skipUndeclared: false
+      skipUndeclared: true
     }],
 
     /**
      * Prevent missing Inferno when using JSX
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/inferno-in-jsx-scope.md
      */
-    'inferno/inferno-in-jsx-scope': 'error',
+    'inferno/inferno-in-jsx-scope': 'off',
 
     /**
      * Enforce Inferno components to have a shouldComponentUpdate method
@@ -229,6 +241,12 @@ module.exports = {
      * Enforce style prop value being an object
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/style-prop-object.md
      */
-    'inferno/style-prop-object': 'error'
+    'inferno/style-prop-object': 'error',
+
+    /**
+     * Prevent void DOM elements (e.g. <img/>, <br/>) from receiving children
+     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/void-dom-elements-no-children.md
+     */
+    'inferno/void-dom-elements-no-children': 'error'
   }
 }

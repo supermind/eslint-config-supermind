@@ -7,12 +7,24 @@ module.exports = {
   rules: {
 
     /**
+     * Enforce emojis are wrapped in and provide screenreader access
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md
+     */
+    'jsx-a11y/accessible-emoji': 'error',
+
+    /**
      * Enforce all anchors to contain accessible content
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md
      */
     'jsx-a11y/anchor-has-content': [ 'error', {
       components: [ 'Anchor', 'Link' ]
     }],
+
+    /**
+     * Enforce elements with aria-activedescendant are tabbable
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-activedescendant-has-tabindex.md
+     */
+    'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
 
     /**
      * Enforce all aria-* props are valid
@@ -67,6 +79,12 @@ module.exports = {
     'jsx-a11y/html-has-lang': 'error',
 
     /**
+     * Enforce iframe elements have a title attribute
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/iframe-has-title.md
+     */
+    'jsx-a11y/iframe-has-title': 'error',
+
+    /**
      * Enforce that <img> JSX elements use the alt prop
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-has-alt.md
      */
@@ -110,16 +128,28 @@ module.exports = {
     'jsx-a11y/no-access-key': 'error',
 
     /**
-     * Enforce <marquee> elements are not used
-     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-marquee.md
+     * Enforce autoFocus prop is not used
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-autofocus.md
      */
-    'jsx-a11y/no-marquee': 'error',
+    'jsx-a11y/no-autofocus': 'error',
+
+    /**
+     * Enforce distracting elements are not used
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-distracting-elements.md
+     */
+    'jsx-a11y/no-distracting-elements': 'error',
 
     /**
      * Enforce usage of onBlur over onChange on select menus for accessibility
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md
      */
     'jsx-a11y/no-onchange': 'error',
+
+    /**
+     * Enforce explicit role property is not the same as implicit/default role property on element
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-redundant-roles.md
+     */
+    'jsx-a11y/no-redundant-roles': 'error',
 
     /**
      * Enforce non-interactive elements have no interactive handlers

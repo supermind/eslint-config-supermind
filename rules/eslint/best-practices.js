@@ -438,6 +438,12 @@ module.exports = {
     'no-with': 'error',
 
     /**
+     * Require using Error objects as Promise rejection reasons
+     * @see http://eslint.org/docs/rules/prefer-promise-reject-errors
+     */
+    'prefer-promise-reject-errors': 'error',
+
+    /**
      * Enforce the consistent use of the radix argument when using parseInt()
      * @see http://eslint.org/docs/rules/radix
      */
