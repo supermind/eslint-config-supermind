@@ -106,7 +106,7 @@ module.exports = {
      * Enforces sorting of Object annotations
      * @see https://github.com/gajus/eslint-plugin-flowtype#sort-keys
      */
-    'flowtype/sort-keys': [ 'error', 'asc', {
+    'flowtype/sort-keys': [ 'off', 'asc', {
       caseSensitive: true,
       natural: false
     }],
@@ -136,7 +136,7 @@ module.exports = {
      * Enforces a consistent naming pattern for type aliases
      * @see https://github.com/gajus/eslint-plugin-flowtype#type-id-match
      */
-    'flowtype/type-id-match': [ 'error', '^([A-Z][a-z0-9]*)+Type$' ],
+    'flowtype/type-id-match': 'error',
 
     /**
      * Enforces consistent spacing around union and intersection type separators (| and &)

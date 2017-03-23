@@ -245,11 +245,7 @@ module.exports = {
      * Enforce propTypes declarations alphabetical sorting
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
      */
-    'react/sort-prop-types': [ 'error', {
-      callbacksLast: true,
-      ignoreCase: false,
-      requiredFirst: true
-    }],
+    'react/sort-prop-types': 'off',
 
     /**
      * Enforce style prop value being an object
