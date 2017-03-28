@@ -129,7 +129,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/object-shorthand
      * @fixable
      */
-    'object-shorthand': [ 'error', 'always' ],
+    'object-shorthand': 'off',
 
     /**
      * Require arrow functions as callbacks
