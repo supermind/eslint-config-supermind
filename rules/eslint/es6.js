@@ -11,9 +11,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/arrow-body-style
      * @fixable
      */
-    'arrow-body-style': [ 'error', 'as-needed', {
-      requireReturnForObjectLiteral: false
-    }],
+    'arrow-body-style': 'off',
 
     /**
      * Require parentheses around arrow function arguments
