@@ -20,9 +20,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/arrow-parens
      * @fixable
      */
-    'arrow-parens': [ 'error', 'as-needed', {
-      requireForBlockBody: true
-    }],
+    'arrow-parens': [ 'error', 'always' ],
 
     /**
      * Enforce consistent spacing before and after the arrow in arrow functions
@@ -138,7 +136,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/prefer-arrow-callback
      * @fixable
      */
-    'prefer-arrow-callback': 'error',
+    'prefer-arrow-callback': 'off',
 
     /**
      * Require const declarations for variables that are never reassigned after declared
