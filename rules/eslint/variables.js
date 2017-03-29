@@ -86,7 +86,8 @@ module.exports = {
      * @see http://eslint.org/docs/rules/no-use-before-define
      */
     'no-use-before-define': [ 'error', {
-      functions: true,
+      functions: false,
+      variables: true,
       classes: true
     }]
   }
