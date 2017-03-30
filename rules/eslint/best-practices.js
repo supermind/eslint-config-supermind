@@ -31,9 +31,7 @@ module.exports = {
      * Enforce that class methods utilize this
      * @see http://eslint.org/docs/rules/class-methods-use-this
      */
-    'class-methods-use-this': [ 'error', {
-      exceptMethods: []
-    }],
+    'class-methods-use-this': 'off',
 
     /**
      * Enforce a maximum cyclomatic complexity allowed in a program
