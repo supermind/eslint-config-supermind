@@ -28,7 +28,7 @@ module.exports = {
      * Disallow the use of console
      * @see http://eslint.org/docs/rules/no-console
      */
-    'no-console': 'error',
+    'no-console': 'off',
 
     /**
      * Disallow constant expressions in conditions

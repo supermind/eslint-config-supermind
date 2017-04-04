@@ -46,7 +46,7 @@ module.exports = {
      * Disallow the use of process.env
      * @see http://eslint.org/docs/rules/no-process-env
      */
-    'no-process-env': 'error',
+    'no-process-env': 'off',
 
     /**
      * Disallow the use of process.exit()
