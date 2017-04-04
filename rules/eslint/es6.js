@@ -142,7 +142,7 @@ module.exports = {
      * @fixable
      */
     'prefer-const': [ 'error', {
-      destructuring: 'any',
+      destructuring: 'all',
       ignoreReadBeforeAssign: false
     }],
 
