@@ -122,7 +122,7 @@ module.exports = {
      * Disallow specified identifiers
      * @see http://eslint.org/docs/rules/id-blacklist
      */
-    'id-blacklist': [ 'error', 'err' ],
+    'id-blacklist': 'off',
 
     /**
      * Enforce minimum and maximum identifier lengths
