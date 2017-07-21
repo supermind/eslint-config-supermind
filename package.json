@@ -19,7 +19,8 @@
     "list-enabled-rules": "eslint-index .eslintrc.js --status warn error --docs",
     "count-enabled-rules": "eslint-index .eslintrc.js --status warn error --format number",
     "list-disabled-rules": "eslint-index .eslintrc.js --status omitted off --docs",
-    "count-disabled-rules": "eslint-index .eslintrc.js --status omitted off --format number"
+    "count-disabled-rules": "eslint-index .eslintrc.js --status omitted off --format number",
+    "precommit": "npm run lint"
   },
   "keywords": [
     "eslint",
@@ -44,7 +45,8 @@
     "eslint-plugin-react": "^7.1.0"
   },
   "devDependencies": {
-    "eslint-index": "^1.4.0"
+    "eslint-index": "^1.4.0",
+    "husky": "^0.14.3"
   },
   "peerDependencies": {
     "eslint": "^4.2.0"
