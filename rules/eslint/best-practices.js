@@ -249,7 +249,9 @@ module.exports = {
      * @see http://eslint.org/docs/rules/no-multi-spaces
      * @fixable
      */
-    'no-multi-spaces': 'error',
+    'no-multi-spaces': [ 'error', {
+      ignoreEOLComments: true
+    }],
 
     /**
      * Disallow multiline strings

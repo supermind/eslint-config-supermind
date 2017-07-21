@@ -7,6 +7,18 @@ module.exports = {
   rules: {
 
     /**
+     * Enforce 'for loop' update clause moving the counter in the right direction
+     * @see http://eslint.org/docs/rules/for-direction
+     */
+    'for-direction': 'error',
+
+    /**
+     * Enforce return statements in getters
+     * @see http://eslint.org/docs/rules/getter-return
+     */
+    'getter-return': 'error',
+
+    /**
      * Disallow await inside of loops
      * @see http://eslint.org/docs/rules/no-await-in-loop
      */

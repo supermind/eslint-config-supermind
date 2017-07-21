@@ -7,6 +7,13 @@ module.exports = {
   rules: {
 
     /**
+     * Enforce linebreaks after opening and before closing array brackets
+     * @see http://eslint.org/docs/rules/array-bracket-newline
+     * @fixable
+     */
+    'array-bracket-newline': 'off',
+
+    /**
      * Enforce consistent spacing inside array brackets
      * @see http://eslint.org/docs/rules/array-bracket-spacing
      * @fixable
@@ -15,6 +22,13 @@ module.exports = {
       objectsInArrays: false,
       arraysInArrays: false
     }],
+
+    /**
+     * Enforce line breaks after each array element
+     * @see http://eslint.org/docs/rules/array-element-newline
+     * @fixable
+     */
+    'array-element-newline': 'off',
 
     /**
      * Enforce consistent spacing inside single-line blocks
@@ -501,6 +515,33 @@ module.exports = {
     'padded-blocks': 'off',
 
     /**
+     * Require or disallow padding lines between statements
+     * @see http://eslint.org/docs/rules/padding-line-between-statements
+     * @fixable
+     */
+    'padding-line-between-statements': [ 'error', {
+      blankLine: 'always',
+      prev: '*',
+      next: 'return'
+    }, {
+      blankLine: 'always',
+      prev: [ 'const', 'let', 'var' ],
+      next: '*'
+    }, {
+      blankLine: 'any',
+      prev: [ 'const', 'let', 'var' ],
+      next: [ 'const', 'let', 'var' ]
+    }, {
+      blankLine: 'always',
+      prev: 'directive',
+      next: '*'
+    }, {
+      blankLine: 'any',
+      prev: 'directive',
+      next: 'directive'
+    }],
+
+    /**
      * Require quotes around object literal property names
      * @see http://eslint.org/docs/rules/quote-props
      * @fixable
@@ -527,6 +568,13 @@ module.exports = {
     }],
 
     /**
+     * Require or disallow semicolons instead of ASI
+     * @see http://eslint.org/docs/rules/semi
+     * @fixable
+     */
+    'semi': [ 'error', 'never' ],
+
+    /**
      * Enforce consistent spacing before and after semicolons
      * @see http://eslint.org/docs/rules/semi-spacing
      * @fixable
@@ -537,11 +585,11 @@ module.exports = {
     }],
 
     /**
-     * Require or disallow semicolons instead of ASI
-     * @see http://eslint.org/docs/rules/semi
+     * Enforce location of semicolons
+     * @see http://eslint.org/docs/rules/semi-style
      * @fixable
      */
-    'semi': [ 'error', 'never' ],
+    'semi-style': [ 'error', 'last' ],
 
     /**
      * Require object keys to be sorted
@@ -604,6 +652,13 @@ module.exports = {
         balanced: true
       }
     }],
+
+    /**
+     * Enforce spacing around colons of switch statements
+     * @see http://eslint.org/docs/rules/switch-colon-spacing
+     * @fixable
+     */
+    'switch-colon-spacing': 'error',
 
     /**
      * Require or disallow spacing between template tags and their literals
