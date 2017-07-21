@@ -46,6 +46,12 @@ module.exports = {
     'flowtype/no-primitive-constructor-types': 'error',
 
     /**
+     * Disallows Flow type imports, exports, aliases, and annotations in files missing a valid Flow file declaration (or a @noflow annotation)
+     * @see https://github.com/gajus/eslint-plugin-flowtype#no-types-missing-file-annotation
+     */
+    'flowtype/no-types-missing-file-annotation': 'error',
+
+    /**
      * Warns against weak type annotations any, Object and Function
      * @see https://github.com/gajus/eslint-plugin-flowtype#no-weak-types
      */
@@ -70,7 +76,7 @@ module.exports = {
      * Requires that functions have return type annotation
      * @see https://github.com/gajus/eslint-plugin-flowtype#require-return-type
      */
-    'flowtype/require-return-type': [ 'error', {
+    'flowtype/require-return-type': [ 'error', 'always', {
       excludeArrowFunctions: false,
       annotateUndefined: 'never'
     }],
