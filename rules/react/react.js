@@ -7,6 +7,12 @@ module.exports = {
   rules: {
 
     /**
+     * Enforce all defaultProps have a corresponding non-required PropType
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
+     */
+    'react/default-props-match-prop-types': 'error',
+
+    /**
      * Prevent missing displayName in a React component definition
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
      */
@@ -109,6 +115,12 @@ module.exports = {
     }],
 
     /**
+     * Prevent usage of shouldComponentUpdate when extending React.PureComponent
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md
+     */
+    'react/no-redundant-should-component-update': 'error',
+
+    /**
      * Prevent usage of the return value of React.render
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md
      */
@@ -146,6 +158,12 @@ module.exports = {
     'react/no-unused-prop-types': [ 'error', {
       skipShapeProps: false
     }],
+
+    /**
+     * Prevent usage of setState in componentWillUpdate
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md
+     */
+    'react/no-will-update-set-state': 'error',
 
     /**
      * Enforce ES5 or ES6 class for React Components

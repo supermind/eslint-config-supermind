@@ -24,6 +24,13 @@ module.exports = {
     }],
 
     /**
+     * Validate closing tag location in JSX
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
+     * @fixable
+     */
+    'react/jsx-closing-tag-location': 'error',
+
+    /**
      * Enforce or disallow spaces inside of curly braces in JSX attributes
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
      * @fixable
@@ -138,13 +145,6 @@ module.exports = {
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
      */
     'react/jsx-sort-props': 'off',
-
-    /**
-     * Validate spacing before closing bracket in JSX
-     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-     * @fixable
-     */
-    'react/jsx-space-before-closing': [ 'error', 'never' ],
 
     /**
      * Validate whitespace in and around the JSX opening and closing brackets
