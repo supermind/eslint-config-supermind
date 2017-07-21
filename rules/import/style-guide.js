@@ -13,6 +13,12 @@ module.exports = {
     'import/first': [ 'error', 'absolute-first' ],
 
     /**
+     * Forbid anonymous values as default exports
+     * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
+     */
+    'import/no-anonymous-default-export': 'off',
+
+    /**
      * Report repeated import of the same module in multiple places
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
      */
