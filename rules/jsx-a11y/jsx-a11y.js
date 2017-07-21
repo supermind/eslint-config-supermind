@@ -13,12 +13,24 @@ module.exports = {
     'jsx-a11y/accessible-emoji': 'error',
 
     /**
+     * Enforce all elements that require alternative text have meaningful information to relay back to end user
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md
+     */
+    'jsx-a11y/alt-text': 'error',
+
+    /**
      * Enforce all anchors to contain accessible content
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md
      */
     'jsx-a11y/anchor-has-content': [ 'error', {
       components: [ 'Anchor', 'Link' ]
     }],
+
+    /**
+     * Enforce all anchors are valid, navigable elements
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md
+     */
+    'jsx-a11y/anchor-is-valid': 'error',
 
     /**
      * Enforce elements with aria-activedescendant are tabbable
@@ -65,14 +77,6 @@ module.exports = {
     }],
 
     /**
-     * Enforce an anchor element's href prop value is not just #
-     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/href-no-hash.md
-     */
-    'jsx-a11y/href-no-hash': [ 'error', {
-      components: [ 'Anchor', 'Link' ]
-    }],
-
-    /**
      * Enforce <html> element has lang prop
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/html-has-lang.md
      */
@@ -85,14 +89,6 @@ module.exports = {
     'jsx-a11y/iframe-has-title': 'error',
 
     /**
-     * Enforce that <img> JSX elements use the alt prop
-     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-has-alt.md
-     */
-    'jsx-a11y/img-has-alt': [ 'error', {
-      components: [ 'Image' ]
-    }],
-
-    /**
      * Enforce <img> alt prop does not contain the word "image", "picture", or "photo"
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-redundant-alt.md
      */
@@ -100,6 +96,12 @@ module.exports = {
       words: [ 'image', 'photo', 'picture' ],
       components: [ 'Image' ]
     }],
+
+    /**
+     * Enforce that elements with interactive handlers like onClick must be focusable
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/interactive-supports-focus.md
+     */
+    'jsx-a11y/interactive-supports-focus': 'error',
 
     /**
      * Enforce that <label> elements have the htmlFor prop
@@ -114,6 +116,12 @@ module.exports = {
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/lang.md
      */
     'jsx-a11y/lang': 'error',
+
+    /**
+     * Enforces that <audio> and <video> elements must have a <track> for captions
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/media-has-caption.md
+     */
+    'jsx-a11y/media-has-caption': 'off',
 
     /**
      * Enforce that onMouseOver/onMouseOut are accompanied by onFocus/onBlur for keyboard-only users
@@ -140,6 +148,30 @@ module.exports = {
     'jsx-a11y/no-distracting-elements': 'error',
 
     /**
+     * Interactive elements should not be assigned non-interactive roles
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-interactive-element-to-noninteractive-role.md
+     */
+    'jsx-a11y/no-interactive-element-to-noninteractive-role': 'error',
+
+    /**
+     * Non-interactive elements should not be assigned mouse or keyboard event listeners
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-interactions.md
+     */
+    'jsx-a11y/no-noninteractive-element-interactions': 'error',
+
+    /**
+     * Non-interactive elements should not be assigned interactive roles
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-to-interactive-role.md
+     */
+    'jsx-a11y/no-noninteractive-element-to-interactive-role': 'error',
+
+    /**
+     * tabIndex should only be declared on interactive elements
+     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-tabindex.md
+     */
+    'jsx-a11y/no-noninteractive-tabindex': 'error',
+
+    /**
      * Enforce usage of onBlur over onChange on select menus for accessibility
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md
      */
@@ -162,12 +194,6 @@ module.exports = {
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/onclick-has-focus.md
      */
     'jsx-a11y/onclick-has-focus': 'off',
-
-    /**
-     * Enforce that non-interactive, visible elements (such as <div>) that have click handlers use the role attribute
-     * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/onclick-has-role.md
-     */
-    'jsx-a11y/onclick-has-role': 'error',
 
     /**
      * Enforce that elements with ARIA roles must have all required attributes for that role
