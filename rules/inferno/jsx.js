@@ -24,6 +24,13 @@ module.exports = {
     }],
 
     /**
+     * Validate closing tag location in JSX
+     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/jsx-closing-tag-location.md
+     * @fixable
+     */
+    'inferno/jsx-closing-tag-location': 'error',
+
+    /**
      * Enforce or disallow spaces inside of curly braces in JSX attributes
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/jsx-curly-spacing.md
      * @fixable
@@ -140,13 +147,6 @@ module.exports = {
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/jsx-sort-props.md
      */
     'inferno/jsx-sort-props': 'off',
-
-    /**
-     * Validate spacing before closing bracket in JSX
-     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/jsx-space-before-closing.md
-     * @fixable
-     */
-    'inferno/jsx-space-before-closing': [ 'error', 'never' ],
 
     /**
      * Validate whitespace in and around the JSX opening and closing brackets

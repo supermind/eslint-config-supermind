@@ -7,14 +7,6 @@ module.exports = {
   rules: {
 
     /**
-     * Prevent missing displayName in a Inferno component definition
-     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/display-name.md
-     */
-    'inferno/display-name': [ 'error', {
-      ignoreTranspilerName: false
-    }],
-
-    /**
      * Forbid certain props on Components
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/forbid-component-props.md
      */
@@ -27,28 +19,16 @@ module.exports = {
     'inferno/forbid-elements': 'off',
 
     /**
-     * Forbid foreign propTypes
-     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/forbid-foreign-prop-types.md
+     * Prevent using Array index in key props
+     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-array-index-key.md
      */
-    'inferno/forbid-foreign-prop-types': 'error',
-
-    /**
-     * Forbid certain propTypes
-     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/forbid-prop-types.md
-     */
-    'inferno/forbid-prop-types': 'error',
+    'inferno/no-array-index-key': 'error',
 
     /**
      * Prevent passing children as props
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-children-prop.md
      */
     'inferno/no-children-prop': 'error',
-
-    /**
-     * Prevent using Array index in key props
-     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-array-index-key.md
-     */
-    'inferno/no-array-index-key': 'error',
 
     /**
      * Prevent usage of dangerous JSX properties
@@ -61,12 +41,6 @@ module.exports = {
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-danger-with-children.md
      */
     'inferno/no-danger-with-children': 'error',
-
-    /**
-     * Prevent usage of deprecated methods
-     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-deprecated.md
-     */
-    'inferno/no-deprecated': 'error',
 
     /**
      * Prevent usage of setState in componentDidMount
@@ -138,10 +112,10 @@ module.exports = {
     'inferno/no-unknown-property': 'error',
 
     /**
-     * Prevent definitions of unused prop types
-     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-unused-prop-types.md
+     * Prevent usage of setState in componentWillUpdate
+     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/no-will-update-set-state.md
      */
-    'inferno/no-unused-prop-types': 'error',
+    'inferno/no-will-update-set-state': 'error',
 
     /**
      * Enforce ES5 or ES6 class for Inferno Components
@@ -155,14 +129,6 @@ module.exports = {
      */
     'inferno/prefer-stateless-function': [ 'error', {
       ignorePureComponents: true
-    }],
-
-    /**
-     * Prevent missing props validation in a Inferno component definition
-     * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/prop-types.md
-     */
-    'inferno/prop-types': [ 'error', {
-      skipUndeclared: true
     }],
 
     /**
