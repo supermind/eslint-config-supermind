@@ -201,9 +201,7 @@ module.exports = {
      * Enforce React components to have a shouldComponentUpdate method
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
      */
-    'react/require-optimization': [ 'error', {
-      allowDecorators: []
-    }],
+    'react/require-optimization': 'off',
 
     /**
      * Enforce ES5 or ES6 class for returning value in render function
