@@ -140,7 +140,9 @@ module.exports = {
      * Enforce PascalCase for user-defined JSX components
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/jsx-pascal-case.md
      */
-    'inferno/jsx-pascal-case': 'error',
+    'inferno/jsx-pascal-case': [ 'error', {
+      allowAllCaps: true
+    }],
 
     /**
      * Enforce props alphabetical sorting

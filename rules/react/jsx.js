@@ -138,7 +138,9 @@ module.exports = {
      * Enforce PascalCase for user-defined JSX components
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
      */
-    'react/jsx-pascal-case': 'error',
+    'react/jsx-pascal-case': [ 'error', {
+      allowAllCaps: true
+    }],
 
     /**
      * Enforce props alphabetical sorting
