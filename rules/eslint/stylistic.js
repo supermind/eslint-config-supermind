@@ -229,7 +229,7 @@ module.exports = {
      */
     'max-len': [ 'error', {
       code: 80,
-      ignoreTrailingComments: true,
+      ignoreComments: true,
       ignoreUrls: true,
       ignoreStrings: true,
       ignoreTemplateLiterals: true
