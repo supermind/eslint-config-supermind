@@ -11,7 +11,7 @@ module.exports = {
      * @see https://github.com/infernojs/eslint-plugin-inferno/blob/master/docs/rules/jsx-boolean-value.md
      * @fixable
      */
-    'inferno/jsx-boolean-value': [ 'error', 'always' ],
+    'inferno/jsx-boolean-value': 'off',
 
     /**
      * Validate closing bracket location in JSX

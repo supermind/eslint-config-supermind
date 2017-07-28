@@ -11,7 +11,7 @@ module.exports = {
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
      * @fixable
      */
-    'react/jsx-boolean-value': [ 'error', 'always' ],
+    'react/jsx-boolean-value': 'off',
 
     /**
      * Validate closing bracket location in JSX
