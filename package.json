@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-supermind",
-  "version": "0.36.0",
+  "version": "0.37.0",
   "description": "Supermind's ESLint configuration",
   "homepage": "https://github.com/supermind/eslint-config-supermind#readme",
   "author": "Matthew Wagerfield <matthew@supermind.com>",
