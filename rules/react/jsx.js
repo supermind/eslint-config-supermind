@@ -19,7 +19,7 @@ module.exports = {
      * @fixable
      */
     'react/jsx-closing-bracket-location': [ 'error', {
-      nonEmpty: 'tag-aligned',
+      nonEmpty: 'after-props',
       selfClosing: 'after-props'
     }],
 
