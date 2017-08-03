@@ -78,13 +78,6 @@ module.exports = {
      * Forbid unassigned imports
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
      */
-    'import/no-unassigned-import': [ 'error', {
-      allow: [
-        '**/*.styl',
-        '**/*.scss',
-        '**/*.css',
-        '**/*.tag'
-      ]
-    }]
+    'import/no-unassigned-import': 'off'
   }
 }
