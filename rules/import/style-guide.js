@@ -80,10 +80,10 @@ module.exports = {
      */
     'import/no-unassigned-import': [ 'error', {
       allow: [
-        '*.styl',
-        '*.scss',
-        '*.css',
-        '*.tag'
+        '**/*.styl',
+        '**/*.scss',
+        '**/*.css',
+        '**/*.tag'
       ]
     }]
   }
