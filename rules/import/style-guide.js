@@ -72,14 +72,19 @@ module.exports = {
      * Limit the maximum number of dependencies a module can have
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/max-dependencies.md
      */
-    'import/max-dependencies': [ 'error', {
-      max: 20
-    }],
+    'import/max-dependencies': 'off',
 
     /**
      * Forbid unassigned imports
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
      */
-    'import/no-unassigned-import': 'error'
+    'import/no-unassigned-import': [ 'error', {
+      allow: [
+        '*.styl',
+        '*.scss',
+        '*.css',
+        '*.tag'
+      ]
+    }]
   }
 }
