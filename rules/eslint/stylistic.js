@@ -603,7 +603,11 @@ module.exports = {
      * @see http://eslint.org/docs/rules/space-before-function-paren
      * @fixable
      */
-    'space-before-function-paren': [ 'error', 'never' ],
+    'space-before-function-paren': [ 'error', {
+      asyncArrow: 'always',
+      anonymous: 'never',
+      named: 'never'
+    }],
 
     /**
      * Enforce consistent spacing inside parentheses
