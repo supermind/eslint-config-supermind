@@ -163,7 +163,7 @@ module.exports = {
      * Require Reflect methods where applicable
      * @see http://eslint.org/docs/rules/prefer-reflect
      */
-    'prefer-reflect': 'error',
+    'prefer-reflect': 'off',
 
     /**
      * Require rest parameters instead of arguments
