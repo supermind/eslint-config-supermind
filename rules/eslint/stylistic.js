@@ -500,12 +500,7 @@ module.exports = {
      * Enforce consistent linebreak style for operators
      * @see http://eslint.org/docs/rules/operator-linebreak
      */
-    'operator-linebreak': [ 'error', 'after', {
-      overrides: {
-        '?': 'before',
-        ':': 'before'
-      }
-    }],
+    'operator-linebreak': 'off',
 
     /**
      * Require or disallow padding within blocks
