@@ -74,9 +74,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/dot-notation
      * @fixable
      */
-    'dot-notation': [ 'error', {
-      allowKeywords: true
-    }],
+    'dot-notation': 'off',
 
     /**
      * Require the use of === and !==
