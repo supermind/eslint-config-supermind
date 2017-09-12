@@ -23,7 +23,8 @@ module.exports = {
 
   // http://eslint.org/docs/user-guide/configuring#configuring-plugins
   plugins: [
-    'import'
+    'import',
+    'html'
   ],
 
   // http://eslint.org/docs/user-guide/configuring#extending-configuration-files

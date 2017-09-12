@@ -7,6 +7,12 @@ module.exports = {
   rules: {
 
     /**
+     * Enforces consistent naming for boolean props
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
+     */
+    'react/boolean-prop-naming': 'error',
+
+    /**
      * Enforce all defaultProps have a corresponding non-required PropType
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
      */
@@ -133,10 +139,16 @@ module.exports = {
     'react/no-set-state': 'error',
 
     /**
-     * Prevent using string references in ref attribute.
+     * Prevent using string references in ref attribute
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
      */
     'react/no-string-refs': 'error',
+
+    /**
+     * Prevents common typos
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-typos.md
+     */
+    'react/no-typos': 'error',
 
     /**
      * Prevent invalid characters from appearing in markup

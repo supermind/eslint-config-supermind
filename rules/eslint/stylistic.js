@@ -133,6 +133,13 @@ module.exports = {
     }],
 
     /**
+     * Enforce consistent line breaks inside function parentheses
+     * @see http://eslint.org/docs/rules/function-paren-newline
+     * @fixable
+     */
+    'function-paren-newline': [ 'error', 'multiline' ],
+
+    /**
      * Disallow specified identifiers
      * @see http://eslint.org/docs/rules/id-blacklist
      */
