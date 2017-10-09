@@ -257,7 +257,7 @@ module.exports = {
      * @see http://eslint.org/docs/rules/max-nested-callbacks
      */
     'max-nested-callbacks': [ 'error', {
-      max: 4
+      max: 8
     }],
 
     /**
