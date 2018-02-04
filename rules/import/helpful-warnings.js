@@ -42,8 +42,8 @@ module.exports = {
      */
     'import/no-extraneous-dependencies': [ 'error', {
       devDependencies: true,
-      optionalDependencies: false,
-      peerDependencies: false
+      optionalDependencies: true,
+      peerDependencies: true
     }],
 
     /**
